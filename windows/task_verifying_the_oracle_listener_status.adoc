@@ -1,0 +1,18 @@
+---
+permalink: windows/task_verifying_the_oracle_listener_status.html
+sidebar: sidebar
+keywords: 
+summary: 'You can verify the Oracle listener status by using the lsnrctl status command.'
+---
+= Verifying the Oracle listener status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can verify the Oracle listener status by using the lsnrctl status command.
+
+* You must connect to the database.
+
+A standard Oracle installation sets the listener port on the database to 1521.
+
+. At the command prompt, enter the command:lsnrctl status

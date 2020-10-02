@@ -1,0 +1,21 @@
+---
+permalink: unix-administration/concept_volume_management_restrictions.html
+sidebar: sidebar
+keywords: 
+summary: 'SnapManager has certain volume management restrictions that might affect your environment.'
+---
+= Volume management restrictions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SnapManager has certain volume management restrictions that might affect your environment.
+
+You can have multiple disk groups for a database; however, the following limitations apply to all disk groups for a given database:
+
+* Disk groups for the database can be managed by only one volume manager.
+* Raw devices backed by a logical volume manager are not supported for protection of Oracle data.
++
+Raw device storage and Automatic Storage Management (ASM) disk groups must be provisioned directly on physical devices. In some cases, partitioning is required.
+
+* A Linux environment without logical volume management requires a partition.

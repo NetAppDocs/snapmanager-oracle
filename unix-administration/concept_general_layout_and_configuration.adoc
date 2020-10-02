@@ -1,0 +1,35 @@
+---
+permalink: unix-administration/concept_general_layout_and_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'Knowing the recommended general database layouts and storage configurations can help you avoid issues related to disk groups, file types, and tablespaces.'
+---
+= Recommended general database layouts and storage configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Knowing the recommended general database layouts and storage configurations can help you avoid issues related to disk groups, file types, and tablespaces.
+
+* Do not include files from more than one type of SAN file system or volume manager in your database.
++
+All files making up a database must reside on the same type of file system.
+
+* SnapManager requires a multiple of 4K block size.
+* Include the database system identifier in the oratab file.
++
+Include an entry in the oratab file for each database to be managed. SnapManager relies on the oratab file to determine which Oracle home to use.
+
+* If you want to register SnapManager backups with Oracle Recovery Manager (RMAN), you must create RMAN-enabled profiles.
+
+If you want to leverage the new volume-based restore or full disk group restore, consider the following guidelines related to file systems and disk groups:
+
+* Multiple databases cannot share the same Automatic Storage Management (ASM) disk group.
+* A disk group containing data files cannot contain other types of files.
+* The logical unit number (LUN) for the data file disk group must be the only object in the storage volume.
+
+The following are some guidelines for volume separation:
+
+* Data files for only one database must be in the volume.
+* You must use separate volumes for each of the following file classifications: database binaries, data files, online redo log files, archived redo log files, and control files.
+* You do not need to create a separate volume for temporary database files because SnapManager does not back up temporary database files.

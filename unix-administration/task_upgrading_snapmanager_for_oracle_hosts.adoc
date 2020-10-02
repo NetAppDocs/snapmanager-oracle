@@ -1,0 +1,60 @@
+---
+permalink: unix-administration/task_upgrading_snapmanager_for_oracle_hosts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can upgrade all of the existing hosts to use the latest version of SnapManager. All of the hosts are upgraded simultaneously. However, this might result in downtime of all the SnapManager hosts and the scheduled operations during that time.'
+---
+= Upgrading the SnapManager hosts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can upgrade all of the existing hosts to use the latest version of SnapManager. All of the hosts are upgraded simultaneously. However, this might result in downtime of all the SnapManager hosts and the scheduled operations during that time.
+
+. Log in to the host system as the root user.
+. From the command-line interface (CLI), navigate to the location where you have downloaded the installation file.
+. If the file is not executable, change the permissions: chmod 544 netapp.smo*
+. Stop the SnapManager server: smo_server stop
+. Depending on the UNIX host, install SnapManager:
++
+|===
+| If the operating system is...| Then run...
+a|
+*Solaris (SPARC64)*
+a|
+# ./netapp.smo.sunos-sparc64-version_number.bin
+a|
+*Solaris (x86_64)*
+a|
+# ./netapp.smo.sunos-x64-version_number.bin
+a|
+*AIX (PPC64)*
+a|
+# ./netapp.smo.aix-ppc64-version_number.bin
+a|
+*Linux x86*
+a|
+# ./netapp.smo.linux-x86-version_number.bin
+a|
+*Linux x64*
+a|
+# ./netapp.smo.linux-x64-version_number.bin
+|===
+
+. On the Introduction page, press *Enter* to continue.
++
+The following message is displayed: Existing SnapManager For Oracle Detected.
+
+. Press *Enter*.
+. At the command prompt, perform the following:
+ .. Press *Enter* to accept the default value for the operating system user.
+ .. Enter the correct value for the operating system group or press *Enter* to accept the default value.
+ .. Enter the correct value for the server startup type or press *Enter* to accept the default value.
+
++
+The configuration summary is displayed.
+. Press *Enter* to continue.
++
+The following message is displayed: Uninstall of Existing SnapManager For Oracle has started.
++
+The uninstallation is completed and the latest version of SnapManager is installed.

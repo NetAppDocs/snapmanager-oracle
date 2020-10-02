@@ -1,0 +1,28 @@
+---
+permalink: unix-administration/concept_support_for_asm_databases_without_asmlib.html
+sidebar: sidebar
+keywords: 
+summary: 'SnapManager supports ASM without ASMLib, by default. The basic requirement is that the devices that are used for ASM disk groups must be partitioned.'
+---
+= Support for ASM databases without ASMLib
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SnapManager supports ASM without ASMLib, by default. The basic requirement is that the devices that are used for ASM disk groups must be partitioned.
+
+When ASMLib is not installed, the device permissions related to ASM disk groups are changed to root:disk when you perform the following operations:
+
+* Restart the host
+* Restore a database from the primary storage by using volume-based SnapRestore (VBSR)
+* Restore a database from the secondary storage
+
+You can set the proper device permissions by assigning true to the oracleasm.support.without.asmlib configuration variable in smo.conf. The devices related to the ASM disk groups are added or removed from the initasmdisks file whenever new devices are added or removed from the host. The initasmdisks file is located at /etc/initasmdisks.
+
+For example, if you set oracleasm.support.without.asmlib=true and then perform a backup mount, new devices are added to initasmdisks. When the host is restarted, the device permissions and ownership are maintained by the startup scripts.
+
+NOTE: The default value for oracleasm.support.without.asmlib is false.
+
+*Related information*
+
+xref:reference_supported_partition_devices.adoc[Supported partition devices]

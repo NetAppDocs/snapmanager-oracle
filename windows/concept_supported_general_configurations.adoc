@@ -1,0 +1,20 @@
+---
+permalink: windows/concept_supported_general_configurations.html
+sidebar: sidebar
+keywords: 
+summary: 'Before installing SnapManager, you must know the general configuration requirements.'
+---
+= Supported general configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before installing SnapManager, you must know the general configuration requirements.
+
+SnapManager supports the following general configurations:
+
+* A non-clustered configuration where a single host is connected to a single storage system
+* One SnapManager server instance per host
+* Any topology that includes storage systems running Data ONTAP controller failover
+
+For information about all storage types and versions supported by SnapManager, see the SnapManager and SnapDrive Compatibility Matrix.

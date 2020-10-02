@@ -1,0 +1,75 @@
+---
+permalink: unix-administration/task_deploying_and_running_the_scripts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can deploy and run the asmmain.sh and asmquerydisk.sh scripts to support ASM databases without ASMLib.'
+---
+= Deploying and running the scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can deploy and run the asmmain.sh and asmquerydisk.sh scripts to support ASM databases without ASMLib.
+
+These scripts do not follow the pre-scripts or post-scripts syntax and workflow is called when intitasmdisks is enabled. You can change anything related to your configuration settings in the scripts. It is recommended to verify if everything in the scripts are working as expected by performing a quick dry run.
+
+NOTE: These scripts do not harm your system on failures nor will they impact your system. These scripts are executed to update the ASM-related disks to have proper permissions and ownership, so that the disks will always be under ASM instance control.
+
+. Create the ASM disk groups with the partitioned disks.
+. Create the Oracle database on the DISK GROUPS.
+. Stop the SnapManager for Oracle server.
++
+NOTE: In an RAC environment, you need perform this step on all the RAC nodes.
+
+. Modify the smo.conf to include the following parameters:
+ .. oracleasm.support.without.asmlib = true
+ .. oracleasm.support.without.asmlib.ownership = true
+ .. oracleasm.support.without.asmlib.username = user name of your ASM instance environment
+ .. oracleasm.support.without.asmlib.groupname = group name of your ASM instance environment
+
++
+These modifications set the permissions for the absolute path only, which means instead of partition device, permissions will be set only for dm-* device.
+. Modify the plugins scripts available in /opt/NetApp/smo/plugins/examples/noasmlib to include your configuration settings in the scripts.
+. Copy the scripts to /opt/NetApp/smo/plugins/noasmlib before starting the SnapManager for Oracle server on the host.
+. Navigate to the /opt/NetApp/smo directory and perform a dry run by running the following script: sh plugins/noasmlib/asmmain.sh
++
+The etc/initasmdisks file is created, which is the main file that is used.
++
+You can confirm that the etc/initasmdisks file contains all the devices related to configured the ASM database, such as:
++
+----
+chown -R grid:oinstall /dev/mapper/360a98000316b61396c3f394645776863p1
+	     chmod 777 /dev/mapper/360a98000316b61396c3f394645776863p1
+	     chown -R grid:oinstall /dev/mapper/360a980003754322f7a2b433469714239p1
+	     chmod 777 /dev/mapper/360a980003754322f7a2b433469714239p1
+	     chown -R grid:oinstall /dev/mapper/360a980003754322f7a2b433469714241p1
+	     chmod 777 /dev/mapper/360a980003754322f7a2b433469714241p1
+	     chown -R grid:oinstall /dev/mapper/360a980003754322f7a2b433469714243p1
+	     chmod 777 /dev/mapper/360a980003754322f7a2b433469714243p1
+----
+
+. Start the SnapManager for Oracle server.
+. Configure SnapDrive for UNIX by adding the following to snapdrive.conf file.disconnect-luns-before-vbsr=on
+. Restart the SnapDrive for UNIX server.
++
+NOTE: In an RAC environment, you need perform the Step 3 through Step 10 for all the RAC nodes.
+
+The /etc/initasmdisks file created, must be executed from either one of the startup scripts or from a script that is newly defined in the rc3.d. The /etc/initasmdisks file should always be executed before the oracleha service starts.
+
+Example
+
+----
+# ls -ltr *ohasd*
+	      lrwxrwxrwx 1 root root 17 Aug  7 02:34 S96ohasd -> /etc/init.d/ohasd
+    	  lrwxrwxrwx 1 root root 17 Aug  7 02:34 K15ohasd -> /etc/init.d/ohasd
+----
+
+In the following example, sh -x/etc/initasmdisks will not be available by default, and you need to append it as the first line in the function `start_stack()` in an ohasd script:
+
+----
+start_stack()
+{
+sh -x /etc/initasmdisks
+# see init.ohasd.sbs for a full rationale case $PLATFORM in Linux
+}
+----

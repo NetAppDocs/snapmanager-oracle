@@ -1,0 +1,84 @@
+---
+permalink: unix-administration/reference_the_smosmsap_operation_show_command.html
+sidebar: sidebar
+keywords: 
+summary: 'You can run the operation show command to list the summary information of all the operations performed against the specified profile. The output lists the client user \(the user for the client PC\) and the effective user \(the user in SnapManager who is valid on the selected host\).'
+---
+= The smo operation show command
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can run the operation show command to list the summary information of all the operations performed against the specified profile. The output lists the client user (the user for the client PC) and the effective user (the user in SnapManager who is valid on the selected host).
+
+== Syntax
+
+----
+
+        smo operation show 
+-profile profile_name 
+\[-label label \| -id id\]
+\[-quiet \| -verbose\]
+----
+
+== Parameters
+
+* *-profile profile_name*
++
+Specifies the name of the profile. This name can be up to 30 characters long and must be unique within the host.
+
+* *-label label*
++
+Specifies the label for the operation.
+
+* *-id id*
++
+Specifies the identifier for the operation.
+
+* *-quiet*
++
+Optional: Displays only error messages in the console. The default is to display error and warning messages.
+
+* *-verbose*
++
+Optional: Displays error, warning, and informational messages in the console.
+
+== Example
+
+The following command line shows detailed information about an operation:
+
+----
+# smo operation show -profile myprofile -id ff8080811295eb1c011295eb28230001
+----
+
+----
+Operation Attempted
+   Operation ID: ff8080811295eb1c011295eb28230001
+   Type:RestoreFor profile: myprofile
+   With Force: No
+   Performed on backup
+   Operation ID: ff8080811295eb1c011296eb23290001
+   Label: mylabel
+Operation Runtime Information
+   Status: SUCCESS
+   Start date: 2007-07-16 13:24:09 IST
+   End date: 2007-07-16 14:10:10 IST
+   Client user: amorrow
+   Effective user: amorrow
+Host
+   Host Run upon: Host3
+   Process ID: 3122
+   SnapManager version: 3.3
+Repository
+   Connection: user1@SMOREPO/hotspur:1521
+   Repository version: 3.3
+Resources in use
+   Volume:
+     ssys1:/vol/luke_ES0_0 (FlexClone)
+   Filesystems:
+     /opt/NetApp/smo/mnt/-mnt_ssys1_luke_ES0_smo_e_es0_f_c_1_8abc0112129b0f81580001_0
+----
+
+*Related information*
+
+xref:task_viewing_operation_details.adoc[Viewing operation details]

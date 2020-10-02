@@ -1,0 +1,42 @@
+---
+permalink: unix-installation-7mode/reference_where_to_go_next.html
+sidebar: sidebar
+keywords: 
+summary: 'After installing SnapManager and successfully creating a backup, you can use SnapManager to perform restore, recovery, and cloning operations. In addition, you might want to find information about other SnapManager features such as scheduling, managing SnapManager operations, and maintaining a history of operations.'
+---
+= Where to go next
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After installing SnapManager and successfully creating a backup, you can use SnapManager to perform restore, recovery, and cloning operations. In addition, you might want to find information about other SnapManager features such as scheduling, managing SnapManager operations, and maintaining a history of operations.
+
+You can find more information about these features as well as release-specific information for SnapManager in the following documentation, all of which is available on the http://mysupport.netapp.com[NetApp Support].
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMP12471546[SnapManager 3.4 for Oracle Administration Guide for UNIX]
++
+Describes how to configure and administer SnapManager for Oracle. Topics include how to configure, back up, restore, and clone databases, perform secondary protection, plus an explanation of CLI commands and instructions on how to upgrade and uninstall the product.
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMP12471548[SnapManager 3.4 for Oracle Release Notes]
++
+Describes new features, fixed issues, important cautions, known issues, and limitations for SnapManager for Oracle.
+
+* _SnapManager for Oracle Online Help_
++
+Describes the step-by-step procedures for performing different SnapManager operations using the SnapManager UI.
++
+NOTE: The _Online Help_ is integrated with the SnapManager UI and is not available on the Support Site.
+
+* http://www.netapp.com/us/media/tr-3761.pdf[NetApp Technical Report 3761: SnapManager for Oracle: Best Practices]
++
+Describes SnapManager for Oracle best practices.
+
+* http://www.netapp.com/us/media/tr-3633.pdf[NetApp Technical Report 3633: Best Practices for Oracle Databases on NetApp Storage]
++
+Describes best practices to configure Oracle databases on NetApp storage system.
+
+*Related information*
+
+http://mysupport.netapp.com[NetApp Support]
+
+http://mysupport.netapp.com/documentation/productsatoz/index.html[NetApp Documentation: Product Library A-Z]

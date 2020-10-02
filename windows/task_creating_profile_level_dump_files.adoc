@@ -1,0 +1,22 @@
+---
+permalink: windows/task_creating_profile_level_dump_files.html
+sidebar: sidebar
+keywords: 
+summary: 'You can find log information about a particular profile by using the smo profile dump command with the name of the profile.'
+---
+= Creating profile-level dump files
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can find log information about a particular profile by using the smo profile dump command with the name of the profile.
+
+. Enter the following command: smo profile dump -profile profile_name
++
+Dump file location:
++
+----
+Path:\<user-home>\Application Data\NetApp\smo\3.3.0\smo_dump_8abc01c814649ebd0114649ec69d0001.jar
+----
++
+NOTE: If you encounter an error while creating a profile, use the smosystem dump command. After you have successfully created a profile, use the smooperation dump and smoprofile dump commands.

@@ -1,0 +1,39 @@
+---
+permalink: unix-administration/reference_the_smosmsapsystem_dump_command.html
+sidebar: sidebar
+keywords: 
+summary: 'You can run the system dump command to create a JAR file that contains diagnostic information about the server environment.'
+---
+= The smo system dump command
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can run the system dump command to create a JAR file that contains diagnostic information about the server environment.
+
+== Syntax
+
+----
+
+        smo system dump 
+\[-quiet \| -verbose\]
+----
+
+== Parameters
+
+* *-quiet*
++
+Displays only error messages in the console. The default is to display error and warning messages.
+
+* *-verbose*
++
+Displays error, warning, and informational messages in the console.
+
+== Example of the system dump command
+
+The following example uses the smo system dump command to create a JAR file:
+
+----
+smo system dump
+Path:/userhomedirectory/.netapp/smo/3.3.0/smo_dump_hostname.jar
+----

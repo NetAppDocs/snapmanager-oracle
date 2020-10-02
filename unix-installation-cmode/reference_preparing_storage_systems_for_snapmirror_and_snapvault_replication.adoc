@@ -1,0 +1,22 @@
+---
+permalink: unix-installation-cmode/reference_preparing_storage_systems_for_snapmirror_and_snapvault_replication.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use SnapManager with Data ONTAP SnapMirror technology to create mirror copies of backup sets on another volume, and with Data ONTAP SnapVault technology to archive backups efficiently to disk. Before you can perform these tasks in SnapManager, you must configure a data-protection relationship between the source and destination volumes and initialize the relationship.'
+---
+= Preparing storage systems for SnapMirror and SnapVault replication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use SnapManager with Data ONTAP SnapMirror technology to create mirror copies of backup sets on another volume, and with Data ONTAP SnapVault technology to archive backups efficiently to disk. Before you can perform these tasks in SnapManager, you must configure a data-protection relationship between the source and destination volumes and initialize the relationship.
+
+NOTE: You cannot configure both a SnapMirror relationship and a SnapVault relationship on the same clustered Data ONTAP source volume. You must configure these relationships on different source volumes.
+
+*Related information*
+
+xref:concept_understanding_the_differences_between_snapmirror_and_snapvault.adoc[Understanding the differences between SnapMirror and SnapVault]
+
+xref:task_preparing_storage_systems_for_snapmirror_replication.adoc[Preparing storage systems for SnapMirror replication]
+
+xref:task_preparing_storage_systems_for_snapvault_replication.adoc[Preparing storage systems for SnapVault replication]

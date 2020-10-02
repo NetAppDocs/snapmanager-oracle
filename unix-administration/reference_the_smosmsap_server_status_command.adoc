@@ -1,0 +1,40 @@
+---
+permalink: unix-administration/reference_the_smosmsap_server_status_command.html
+sidebar: sidebar
+keywords: 
+summary: 'You can run the smo_server status command to view the status of the SnapManager host server.'
+---
+= The smo_server status command
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can run the smo_server status command to view the status of the SnapManager host server.
+
+== Syntax
+
+----
+
+        smo_server status 
+\[-quiet \| -verbose\]
+----
+
+== Parameters
+
+* *-quiet*
++
+Specifies that only error messages are displayed in the console. The default is to display error and warning messages.
+
+* *-verbose*
++
+Specifies that error, warning, and informational messages are displayed in the console.
+
+== Example
+
+The following example displays the status of the host server:
+
+----
+smo_server status
+SMO-17104: SnapManager Server version 3.3.1 is running on secure port 25204 with PID 11250
+  and has 0 operations in progress.
+----

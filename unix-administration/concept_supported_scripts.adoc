@@ -1,0 +1,18 @@
+---
+permalink: unix-administration/concept_supported_scripts.html
+sidebar: sidebar
+keywords: 
+summary: 'The asmmain.sh and asmquerydisk.sh scripts allow you to change the grid user, group, and the user, all of which are used to query the ASM disks. The scripts must always be executed from the root.'
+---
+= Supported scripts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The asmmain.sh and asmquerydisk.sh scripts allow you to change the grid user, group, and the user, all of which are used to query the ASM disks. The scripts must always be executed from the root.
+
+The asmmain.sh is the main script file called from any operation that adds or deletes devices. The asmmain.sh script calls another script internally, which needs to be executed from the root that has oracle grid credentials. This script queries the ASM disk group's devices, then adds those entries in the initasmdisk file with the permission and the ownership of the devices. You can change the permissions and ownership of this file based on your environment and the regex pattern that is used for matching only the /dev/mapper/*p1.
+
+The asmquerydisk.sh script is used to query the disk list, which is used to create the ASM disk group. You must assign values to ORACLE_BASE, ORACLE_HOME, and ORACLE_SID, depending on your configuration.
+
+The scripts are located at /opt/NetApp/smo/plugins/examples/noasmlib. However, these scripts must be moved to /opt/NetApp/smo/plugins/noasmlib before starting the SnapManager for Oracle server on the host.

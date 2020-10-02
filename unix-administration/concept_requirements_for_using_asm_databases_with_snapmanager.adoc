@@ -1,0 +1,42 @@
+---
+permalink: unix-administration/concept_requirements_for_using_asm_databases_with_snapmanager.html
+sidebar: sidebar
+keywords: 
+summary: 'You must know the requirements for using Automatic Storage Management \(ASM\) databases with SnapManager. Knowing these requirements can help you avoid issues with the ASMLib, partitions, and clone specifications, among other things.'
+---
+= Requirements for using ASM databases with SnapManager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must know the requirements for using Automatic Storage Management (ASM) databases with SnapManager. Knowing these requirements can help you avoid issues with the ASMLib, partitions, and clone specifications, among other things.
+
+* SnapManager (3.0.3 or later) uses the new sysasm privilege available with Oracle 11gR2 instead of the sysdba privilege to administer an Oracle ASM instance.
++
+If you use the sysdba privilege to run administrative commands on the ASM instance, an error message is displayed. The database uses the sysdba privilege to access disk groups. If you connect to the ASM instance using the sysasm privilege, you have complete access to all the available Oracle ASM disk groups and management functions.
++
+NOTE: If you are using Oracle 10gR2 and 11gR1, you must continue to use the sysdba privilege.
+
+* SnapManager (3.0.3 or later) supports backing up databases that are stored directly on ASM disk groups when the disk group also contains an Automatic Cluster File System (ACFS) volume.
++
+These files are indirectly protected by SnapManager and might be restored with the remaining contents of an ASM diskgroup, but SnapManager (3.0.3 or later) does not support ACFS.
++
+NOTE: ACFS is a multiplatform, scalable file-system storage management technology available with Oracle 11gR2. ACFS extends ASM functionality to support customer files maintained outside the Oracle database.
+
+* SnapManager (3.0.3 or later) supports the backup of files that are stored on ASM disk groups when the disk group also contains Oracle Cluster Registry (OCR) files or voting disk files; however, restore operations require slower, host-based or partial-file snap restore (PFSR) method.
++
+It is best to have OCR and voting disks on disk groups that do not contain database files.
+
+* Each disk used for ASM must contain only one partition.
+* The partition hosting the ASM data must be properly aligned to avoid severe performance problems.
++
+This implies that the LUN must be of the correct type and the partition must have an offset that is a multiple of 4K bytes.
++
+NOTE: For details about how to create partitions that are aligned to 4K, see the Knowledge Base article 1010717.
+
+* ASM configuration is not specified as part of the clone specification.
++
+You must manually remove the ASM configuration information in clone specifications that were created using SnapManager 2.1 before upgrading the host to SnapManager (2.2 or later).
+
+* SnapManager 3.1, 3.1p1, and 3.2 or later support ASMLib 2.1.4.
+* SnapManager 3.1p4 or later support ASMLib 2.1.4, 2.1.7, and 2.1.8.

@@ -1,0 +1,25 @@
+---
+permalink: unix-administration/concept_details_of_the_target_database.html
+sidebar: sidebar
+keywords: 
+summary: 'This example of integrated database protection describes the protection of a payroll database. The following data is used in the example.'
+---
+= Details of the target database
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This example of integrated database protection describes the protection of a payroll database. The following data is used in the example.
+
+The database administrator (DBA) at TechCo, a 3000-person company headquartered in Atlanta, must create a consistent backup of the production payroll database, PAYDB. The protection strategy for backing up to primary and secondary storage requires that the DBA and the storage administrator work together to back up the Oracle database both locally on primary storage and also remotely, to secondary storage at a remote location.
+
+* *Profile information*
++
+When creating a profile in SnapManager, you need the following data:
+
+ ** Database name: PAYDB
+ ** Host name: payroll.techco.com
+ ** Database ID: payrolldb
+ ** Profile name: payroll_prod
+ ** Connection mode: Database authentication
+ ** Snapshot naming scheme: smo_hostname_dbsid_smoprofile_scope_mode_smid (which translates to "smo_payroll.xyz.com_payrolldb_payroll_prod_f_h_x")
