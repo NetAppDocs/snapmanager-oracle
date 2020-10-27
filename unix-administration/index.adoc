@@ -43,7 +43,7 @@ summary: ''
   *** xref:concept_volume_management_restrictions.adoc[Volume management restrictions]
 * xref:concept_upgrading_snapmanager_for_oracle.adoc[Upgrading SnapManager]
  ** xref:concept_preparing_to_upgrade_snapmanager_for_oracle.adoc[Preparing to upgrade SnapManager]
- ** xref:task_upgrading_snapmanager_for_oracle_hosts.adoc[Upgrading the SnapManager hosts]
+ ** xref:task_upgrading_snapmanager_for_oracle_hosts_c1.adoc[Upgrading the SnapManager hosts]
  ** xref:concept_post_upgrade_tasks.adoc[Post-upgrade tasks]
   *** xref:task_updating_the_existing_repository.adoc[Updating the existing repository]
   *** xref:task_modifying_the_backup_retention_class.adoc[Modifying the backup retention class]
