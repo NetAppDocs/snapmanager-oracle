@@ -13,7 +13,7 @@ In this example, the TechCo corporation runs its payroll database on a database 
 
 The following illustration shows the SnapManager for Oracle and the NetApp Management Console data protection capability components required to support local and secondary backup protection.
 
-image::../media/scrn_en_drw_smo_architecture.gif[This figure displays the components associated with a combined SnapManager for Oracle and Management Console database protection architecture]
+image::../media/scrn_en_drw_smo_architecture_unix.gif[This figure displays the components associated with a combined SnapManager for Oracle and Management Console database protection architecture]
 
 To manage the payroll database and support its local and secondary backup protection as illustrated in the previous graphic, the following deployment is used.
 

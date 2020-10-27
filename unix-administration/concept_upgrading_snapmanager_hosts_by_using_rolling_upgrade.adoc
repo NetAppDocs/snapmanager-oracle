@@ -20,7 +20,7 @@ Rolling upgrade provides the following benefits:
 
 NOTE: You can perform rolling upgrade only by using the command-line interface (CLI).
 
-image::../media/scrn_en_drw_rollupgrade_architecture.gif[]
+image::../media/scrn_en_drw_rollupgrade_architecture_unix.gif[]
 
 After successful completion of rolling upgrade, the SnapManager hosts, profiles, schedules, backups, and clones associated with the profiles of the target databases are migrated from the repository database of the earlier SnapManager version to the repository database of the new version. The details about the operations performed by using the profiles, schedules, backups, and clones that were created in the earlier SnapManager version are now available in the repository database of the new version. You can start the GUI by using the default configuration values of the user.config file. The values configured in the user.config file of the earlier version of SnapManager are not considered.
 

@@ -1,7 +1,9 @@
 ---
-title: helpData.xml
 entries:
+- title: Home
+  url: "/index.html"
 - title: unix-administration
+  url: "/unix-administration/index.html"
   entries:
   - title: Product overview
     url: "/unix-administration/reference_product_overview.html"
@@ -150,7 +152,7 @@ entries:
     - title: Preparing to upgrade SnapManager
       url: "/unix-administration/concept_preparing_to_upgrade_snapmanager_for_oracle.html"
     - title: Upgrading the SnapManager hosts
-      url: "/unix-administration/task_upgrading_snapmanager_for_oracle_hosts.html"
+      url: "/unix-administration/task_upgrading_snapmanager_for_oracle_hosts_c1.html"
     - title: Post-upgrade tasks
       url: "/unix-administration/concept_post_upgrade_tasks.html"
       entries:
@@ -788,6 +790,7 @@ entries:
   - title: Error messages
     url: "/unix-administration/reference_error_messages.html"
 - title: unix-installation-7mode
+  url: "/unix-installation-7mode/index.html"
   entries:
   - title: Product overview
     url: "/unix-installation-7mode/reference_product_overview.html"
@@ -849,6 +852,7 @@ entries:
   - title: Where to go next
     url: "/unix-installation-7mode/reference_where_to_go_next.html"
 - title: unix-installation-cmode
+  url: "/unix-installation-cmode/index.html"
   entries:
   - title: Product overview
     url: "/unix-installation-cmode/reference_product_overview.html"
@@ -919,6 +923,7 @@ entries:
   - title: Where to go next
     url: "/unix-installation-cmode/reference_where_to_go_next.html"
 - title: windows
+  url: "/windows/index.html"
   entries:
   - title: What SnapManagerfor Oracle is
     url: "/windows/concept_what_snapmanager_for_oraclefor_sap_is.html"
