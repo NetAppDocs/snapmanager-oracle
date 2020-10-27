@@ -1,5 +1,5 @@
 ---
-permalink: unix-administration/task_upgrading_snapmanager_for_oracle_hosts.html
+permalink: unix-administration/task_upgrading_snapmanager_for_oracle_hosts_c1.html
 sidebar: sidebar
 keywords: 
 summary: 'You can upgrade all of the existing hosts to use the latest version of SnapManager. All of the hosts are upgraded simultaneously. However, this might result in downtime of all the SnapManager hosts and the scheduled operations during that time.'

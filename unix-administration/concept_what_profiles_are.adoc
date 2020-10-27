@@ -17,7 +17,7 @@ Profile information is stored in a repository. The repository contains both the 
 
 The following figure illustrates how repositories can hold multiple profiles, but also that each profile can define only one database:
 
-image::../media/prnt_en_drw_smo_smsap_rep_prof.gif[]
+image::../media/prnt_en_drw_smo_smsap_rep_prof_unix.gif[]
 
 In the preceding example, Repository2 is on database DB1 and Repository1 is on the database DB4.
 

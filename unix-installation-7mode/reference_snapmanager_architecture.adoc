@@ -11,7 +11,7 @@ summary: 'SnapManager for Oracle includes components that work together to provi
 [.lead]
 SnapManager for Oracle includes components that work together to provide a comprehensive and powerful backup, restore, recovery, and cloning solution for Oracle databases.
 
-image::../media/smo_architecture_7mode.gif[This graphic shows the SnapManager architecture in 7-Mode env]
+image::../media/smo_architecture_7mode_c1.gif[This graphic shows the SnapManager architecture in 7-Mode env]
 
 == SnapDrive for UNIX
 

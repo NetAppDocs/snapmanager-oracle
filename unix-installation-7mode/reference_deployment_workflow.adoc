@@ -11,4 +11,4 @@ summary: 'Before you can create backups with SnapManager, you need to first inst
 [.lead]
 Before you can create backups with SnapManager, you need to first install SnapDrive for UNIX and then install SnapManager for Oracle.
 
-image::../media/deployment_workflow_smo_7mode.gif[This diagram shows the deployment workflow of SnapManager for Oracle in 7-Mode environment.]
+image::../media/deployment_workflow_smo_7mode_c1.gif[This diagram shows the deployment workflow of SnapManager for Oracle in 7-Mode environment.]

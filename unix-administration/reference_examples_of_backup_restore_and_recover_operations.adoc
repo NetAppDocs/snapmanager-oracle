@@ -13,7 +13,7 @@ You can find information about some of the backup, restore, and recover scenario
 
 The following illustration shows the contents of the tablespace:
 
-image::../media/prnt_en_drw_smo_smsap_db_tables.gif[]
+image::../media/prnt_en_drw_smo_smsap_db_tables_unix.gif[]
 
 In the illustration, Tablespace1 has one table and two database files associated with it. Tablespace2 has two tables and one database file associated with it.
 
