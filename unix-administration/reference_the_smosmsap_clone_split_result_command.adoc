@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_clone_split_result_command.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: smo, clone, split-result, command
+summary: The smo clone split-result command.
 ---
 = The smo clone split-result command
 :icons: font
@@ -15,10 +15,10 @@ This command lets you view the result of the clone split process.
 
 ----
 
-        smo clone split-result 
--profile profile 
-\[-host hostname\] 
-\[-label split-label \| -id split-id\] 
+        smo clone split-result
+-profile profile
+\[-host hostname\]
+\[-label split-label \| -id split-id\]
 \[-quiet \| -verbose\]
 ----
 

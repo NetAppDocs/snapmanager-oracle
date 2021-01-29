@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_error_messages.html
 sidebar: sidebar
-keywords: 
-summary: 'You can find information about the error messages associated with different SnapManager operations.'
+keywords: information, error, message, associate, snapmanager, operation
+summary: You can find information about the error messages associated with different SnapManager operations.
 ---
 = Error messages
 :icons: font
@@ -15,6 +15,7 @@ You can find information about the error messages associated with different Snap
 
 The following table lists some of the most common and important errors associated with SnapManager for Oracle:
 
+[options="header"]
 |===
 | Error message| Explanation| Resolution
 a|

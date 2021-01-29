@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_supported_scripts.html
 sidebar: sidebar
-keywords: 
-summary: 'The asmmain.sh and asmquerydisk.sh scripts allow you to change the grid user, group, and the user, all of which are used to query the ASM disks. The scripts must always be executed from the root.'
+keywords: asmmain.sh, asmquerydisk.sh, script, grid, group, user
+summary: The asmmain.sh and asmquerydisk.sh scripts allow you to change the grid user, group, and the user, all of which are used to query the ASM disks. The scripts must always be executed from the root.
 ---
 = Supported scripts
 :icons: font

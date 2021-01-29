@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_supported_partition_devices.html
 sidebar: sidebar
-keywords: 
-summary: 'You must know the different partition devices that are supported in SnapManager.'
+keywords: partition, snapmanager, support, device, red, hat, enterprise, linux, 5x, oracle
+summary: You must know the different partition devices that are supported in SnapManager.
 ---
 = Supported partition devices
 :icons: font
@@ -13,6 +13,7 @@ You must know the different partition devices that are supported in SnapManager.
 
 The following table provides partition information and how it can be enabled for different operating systems:
 
+[options="header"]
 |===
 | Operating system| Single partition| Multiple partition| Non-partition devices| File system or RAW devices
 a|

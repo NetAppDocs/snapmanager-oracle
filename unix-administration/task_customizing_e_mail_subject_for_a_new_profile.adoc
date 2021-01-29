@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_customizing_e_mail_subject_for_a_new_profile.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can customize the email subject for the new profile when you create it.'
 ---
 = Customizing the email subject for a new profile
@@ -13,6 +13,7 @@ You can customize the email subject for the new profile when you create it.
 
 You can customize the email subject by using the \{profile}_\{operation-name}_\{db-sid}_\{db-host}_\{start-date}_\{end-date}_\{status} pattern or enter your own text.
 
+[options="header"]
 |===
 | Variable name| Description| Example value
 a|

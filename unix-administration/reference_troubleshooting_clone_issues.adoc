@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_troubleshooting_clone_issues.html
 sidebar: sidebar
-keywords: 
-summary: 'You can find information about that might occur during clone operations and how you can resolve them.'
+keywords: find, information, clone, operation, resolve, troubleshoot, issue
+summary: You can find information about that might occur during clone operations and how you can resolve them.
 ---
 = Troubleshooting clone issues
 :icons: font
@@ -11,6 +11,7 @@ summary: 'You can find information about that might occur during clone operation
 [.lead]
 You can find information about that might occur during clone operations and how you can resolve them.
 
+[options="header"]
 |===
 | Symptom| Explanation| Workaround
 a|

@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_creating_profiles.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'When creating profiles, you can assign a particular Oracle database user account to the profile. You can set the retention policy for the profile, enable backup protection to secondary storage for all the backups using this profile, and set the retention count and duration for each retention class.'
 ---
 = Creating profiles
@@ -36,13 +36,14 @@ While creating the profile to separate archive log backups from the data files b
 
 NOTE: If you encounter an error while creating a profile, use the smosystem dump command. After you create a profile, if you encounter an error, use the smooperation dump and smoprofile dump commands.
 
-. To create a profile with a user name, password, and port (Oracle authentication), enter the following command: smo profile create -profileprofile [-profile-passwordprofile_password] -repository-dbnamerepo_dbname-hostrepo_host-portrepo_port-login-usernamerepo_username-database-dbnamedb_dbname-hostdb_host [-siddb_sid] [-login [-usernamedb_username-passworddb_password-portdb_port][-asminstance-asmusernameasminstance_username-asmpasswordasminstance_password]] [-rman {-controlfile | {-login-usernamerman_username-passwordrman_password-tnsnamerman_tnsname} } ] -osaccountosaccount-osgrouposgroup [-retain [-hourly [-countn] [-durationm]] [-daily [-countn] [-durationm]] [-weekly [-countn] [-durationm]] [-monthly [-countn] [-durationm]]] [-commentcomment][-snapname-patternpattern][-protect [-protection-policypolicy_name]] [-summary-notification] [-notification [-success-emailemail_address1, email_address2-subjectsubject_pattern] [-failure-emailemail_address1, email_address2-subjectsubject_pattern]][-separate-archivelog-backups-retain-archivelog-backups-hourshours | -daysdays | -weeksweeks| -monthsmonths [-protect [-protection-policypolicy_name] | -noprotect] [-include-with-online-backups | -no-include-with-online-backups]] [-dump]
+. To create a profile with a user name, password, and port (Oracle authentication), enter the following command:
+  'smo profile create -profileprofile [-profile-passwordprofile_password] -repository-dbnamerepo_dbname-hostrepo_host-portrepo_port-login-usernamerepo_username-database-dbnamedb_dbname-hostdb_host [-siddb_sid] [-login [-usernamedb_username-passworddb_password-portdb_port][-asminstance-asmusernameasminstance_username-asmpasswordasminstance_password]] [-rman {-controlfile | {-login-usernamerman_username-passwordrman_password-tnsnamerman_tnsname} } ] -osaccountosaccount-osgrouposgroup [-retain [-hourly [-countn] [-durationm]] [-daily [-countn] [-durationm]] [-weekly [-countn] [-durationm]] [-monthly [-countn] [-durationm]]] [-commentcomment][-snapname-patternpattern][-protect [-protection-policypolicy_name]] [-summary-notification] [-notification [-success-emailemail_address1, email_address2-subjectsubject_pattern] [-failure-emailemail_address1, email_address2-subjectsubject_pattern]][-separate-archivelog-backups-retain-archivelog-backups-hourshours | -daysdays | -weeksweeks| -monthsmonths [-protect [-protection-policypolicy_name] | -noprotect] [-include-with-online-backups | -no-include-with-online-backups]] [-dump]'
 +
 Other options for this command are as follows:
 +
-[-force] [-noprompt]
+'[-force] [-noprompt]'
 +
-[quiet | verbose]
+'[quiet | verbose]'
 +
 NOTE: For Real Application Clusters (RAC) environments, when creating a new profile you must provide the value of the db_unique_name parameter as db_dbname.
 +
@@ -133,10 +134,12 @@ Specify the following options and variables:
  ** -success-emailemail_address2 enables you to receive an email notification on the successful database operation performed by using a new or existing profile.
  ** -failure-emailemail_address2 enables you to receive an email notification on the failed database operation performed by using a new or existing profile.
  ** -subjectsubject_text specifies the subject text for the email notification while creating a new profile or an existing profile.
-If the notification settings are not configured for the repository and you try to configure profile or summary notifications by using the CLI, the following message is logged in the console log: SMO-14577: Notification Settings not configured.
+If the notification settings are not configured for the repository and you try to configure profile or summary notifications by using the CLI, the following message is logged in the console log:
+  'SMO-14577: Notification Settings not configured.'
 
 +
-If you have configured the notification settings and you try to configure summary notification by using the CLI without enabling summary notification for the repository, the following message is shown in the console log: SMO-14575: Summary notification configuration not available for this repository__**__
+If you have configured the notification settings and you try to configure summary notification by using the CLI without enabling summary notification for the repository, the following message is shown in the console log:
+  'SMO-14575: Summary notification configuration not available for this repository__**__'
 a|
 *You want to backup archive log files separately from data files*
 a|

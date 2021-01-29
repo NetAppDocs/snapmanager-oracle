@@ -1,7 +1,7 @@
 ---
 permalink: unix-installation-7mode/task_backing_up_your_database.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After creating a profile, you must back up your database. You can schedule recurring backups after the initial backup and verification.'
 ---
 = Backing up your database
@@ -49,7 +49,3 @@ If you select Auto, SnapManager creates a backup based on the current state of t
 . Click *Finish* to close the wizard.
 +
 If the operation fails, click *Operation Details* to view what caused the operation to fail.
-
-*Related information*
-
-https://library.netapp.com/ecm/ecm_download_file/ECMP12471546[SnapManager 3.4 for Oracle Administration Guide for UNIX]

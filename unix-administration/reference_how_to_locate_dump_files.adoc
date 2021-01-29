@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_how_to_locate_dump_files.html
 sidebar: sidebar
-keywords: 
-summary: 'The dump file is located at the client system for easy access. These files are helpful if you need to troubleshoot a problem related to profile, system, or any operation.'
+keywords: dump, file, locate, client, system, easy, access, file, helpful, troubleshoot
+summary: The dump file is located at the client system for easy access. These files are helpful if you need to troubleshoot a problem related to profile, system, or any operation.
 ---
 = How to locate dump files
 :icons: font
@@ -28,6 +28,7 @@ user_home/.netapp/smo/3.3.0/smo_dump_dump_file_type_name server_host.jar
 
 The dump file contains the output of the dump command. The name of the file depends on the information supplied. The following table shows the types of dump operations and the resulting file names:
 
+[options="header"]
 |===
 | Type of dump operation| Resulting file name
 a|

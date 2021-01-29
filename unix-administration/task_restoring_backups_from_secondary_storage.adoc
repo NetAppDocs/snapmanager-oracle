@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_restoring_backups_from_secondary_storage.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can restore protected backups from secondary storage and choose how you want to copy the data back to the primary storage.'
 ---
 = Restoring backups from secondary storage
@@ -31,6 +31,7 @@ This policy should be used only if the host does not have direct access to the s
 
 . Perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

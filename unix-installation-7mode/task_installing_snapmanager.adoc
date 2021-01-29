@@ -1,7 +1,7 @@
 ---
 permalink: unix-installation-7mode/task_installing_snapmanager.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You must install SnapManager on each host where the database you want to backup is running.'
 ---
 = Installing SnapManager
@@ -19,12 +19,14 @@ You must install one SnapManager instance per database host. If you are using a 
 
 . Download the SnapManager for Oracle install package for UNIX from the NetApp Support Siteand copy it to the host system.
 +
-http://mysupport.netapp.com/NOW/cgi-bin/software[NetApp Downloads: Software]
+http://mysupport.netapp.com/NOW/cgi-bin/software[NetApp Downloads:
+  'Software]''
 
 . Log in to the database host as the root user.
 . From the command prompt, navigate to the directory where you copied the install package.
 . Make the install package executable: chmod 755install_package.bin
-. Install SnapManager: ./install_package.bin
+. Install SnapManager:
+  './install_package.bin'
 . Press Enter to continue.
 . Perform the following steps:
  .. Press Enter to accept the default value for operating system group.
@@ -43,4 +45,5 @@ SnapManager is installed at
 
 xref:task_setting_up_snapmanager.adoc[Setting up SnapManager]
 
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30050[NetApp Documentation: SnapDrive for UNIX]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=30050[NetApp Documentation:
+  'SnapDrive for UNIX]'

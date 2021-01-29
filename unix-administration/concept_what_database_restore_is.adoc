@@ -1,18 +1,19 @@
 ---
 permalink: unix-administration/concept_what_database_restore_is.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager enables you to perform volume-based or file-based backup and restore operations.'
+keywords: snapmanager, enable, perform, volume-based, file-based, restore, opertion,
+summary: SnapManager enables you to perform volume-based or file-based backup and restore operations.
 ---
 = What database restore is
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-SnapManager enables you to perform volume-based orfile-based backup and restore operations.
+SnapManager enables you to perform volume-based or file-based backup and restore operations.
 
 The following table describes the restore methods:
 
+[options="header"]
 |===
 | Restore process| Details
 a|

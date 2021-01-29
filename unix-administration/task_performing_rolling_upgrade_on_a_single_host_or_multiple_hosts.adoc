@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_performing_rolling_upgrade_on_a_single_host_or_multiple_hosts.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can perform rolling upgrade on a single or multiple SnapManager server hosts by using the command-line interface \(CLI\). The upgraded SnapManager server host is then managed only with the later version of SnapManager.'
 ---
 = Performing rolling upgrade on a single host or multiple hosts
@@ -13,7 +13,8 @@ You can perform rolling upgrade on a single or multiple SnapManager server hosts
 
 You must ensure that all the prerequisites for performing rolling upgrade are completed.
 
-. To perform a rolling upgrade on a single host, enter the following command: smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-upgradehosthost_with_target_database-force [-quiet | -verbose]
+. To perform a rolling upgrade on a single host, enter the following command:
+   'smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-upgradehosthost_with_target_database-force [-quiet | -verbose]'
 +
 The following command performs the rolling upgrade of all target databases mounted on hostA and a repository database named repoA located on repo_host:
 +
@@ -29,7 +30,8 @@ smo repository rollingupgrade
      -upgradehost hostA
 ----
 
-. To perform a rolling upgrade on multiple hosts, enter the following command: smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-upgradehosthost_with_target_database1,host_with_target_database2-force [-quiet | -verbose]
+. To perform a rolling upgrade on multiple hosts, enter the following command:
+   'smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-upgradehosthost_with_target_database1,host_with_target_database2-force [-quiet | -verbose]'
 +
 NOTE: For multiple hosts, enter the host names separated by a comma and ensure that you do not include any space between the comma and the next host name.If you are using a Real Application Clusters (RAC) configuration, you must manually upgrade all RAC-associated hosts. You can use -allhosts to perform the rolling upgrade of all the hosts.
 +
@@ -47,7 +49,8 @@ smo repository rollingupgrade
      -upgradehost hostA,hostB
 ----
 
-. To perform a rolling upgrade on all the hosts on a repository database, enter the following command: smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-allhosts-force [-quiet | -verbose]
+. To perform a rolling upgrade on all the hosts on a repository database, enter the following command:
+  'smorepository rollingupgrade-repository-dbnamerepo_service_name-hostrepo_host-login-usernamerepo_username-portrepo_port-allhosts-force [-quiet | -verbose]'
 +
 After successfully upgrading the repository database, you can perform all the SnapManager operations on the target database.
 +

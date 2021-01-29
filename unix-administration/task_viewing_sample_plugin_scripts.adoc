@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_viewing_sample_plugin_scripts.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'SnapManager includes scripts that you can use as examples for how to make your own scripts or as a basis for your custom scripts.'
 ---
 = Viewing sample plug-in scripts
@@ -25,6 +25,7 @@ The directory that contains the sample plug-in scripts includes the following su
 
 The following table describes the sample scripts:
 
+[options="header"]
 |===
 | Script name| Description| Type of script
 a|

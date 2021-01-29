@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_modifying_the_backup_retention_class.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After upgrading, SnapManager assigns the default backup retention class to the existing backups. You can modify the default retention class values to meet your backup requirements.'
 ---
 = Modifying the backup retention class
@@ -13,6 +13,7 @@ After upgrading, SnapManager assigns the default backup retention class to the e
 
 The default backup retention class assigned to the existing backups are as follows:
 
+[options="header"]
 |===
 | Backup type| Retention class assignment after upgrade
 a|

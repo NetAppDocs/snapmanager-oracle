@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_clone_splitestimate_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command enables you to view the clone split amount of storage consumed estimate.'
+keywords: command, enable, clone, split, amount, storage, consume, estimate
+summary: This command enables you to view the clone split amount of storage consumed estimate.
 ---
 = The smo clone split-estimate command
 :icons: font
@@ -15,10 +15,10 @@ This command enables you to view the clone split amount of storage consumed esti
 
 ----
 
-        smo clone split-estimate 
--profile profile 
-\[-host hostname\] 
-\[-label clone-label | -id clone-id\] 
+        smo clone split-estimate
+-profile profile
+\[-host hostname\]
+\[-label clone-label | -id clone-id\]
 \[-quiet \| -verbose\]
 ----
 

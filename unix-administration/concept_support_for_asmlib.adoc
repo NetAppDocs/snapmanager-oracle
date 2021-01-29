@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_support_for_asmlib.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager supports different versions of ASMLib, although there are several factors you must consider when using SnapManager with ASMLib.'
+keywords: snapmanager, asmlib, support
+summary: SnapManager supports different versions of ASMLib, although there are several factors you must consider when using SnapManager with ASMLib.
 ---
 = Support for ASMLib
 :icons: font

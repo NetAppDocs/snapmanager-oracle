@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_backup_types_and_the_number_of_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: 'The backup type \(full or partial\) affects the number of Snapshot copies that SnapManager creates. For a full backup, SnapManager creates a Snapshot copy of each volume, while for a partial backup, SnapManager creates a Snapshot copy of each tablespace file.'
+keywords: backup, snapshot, snapmanager, backup, copy, ontap, data
+summary: The backup type \(full or partial\) affects the number of Snapshot copies that SnapManager creates. For a full backup, SnapManager creates a Snapshot copy of each volume, while for a partial backup, SnapManager creates a Snapshot copy of each tablespace file.
 ---
 = Backup types and the number of Snapshot copies
 :icons: font
@@ -23,6 +23,7 @@ SnapManager creates Snapshot copies at the volume level instead of the tablespac
 
 NOTE: Both backups also create Snapshot copies of the log files.
 
+[options="header"]
 |===
 | Volumes in database| Tablespace TS1 (includes 2 database files)| Tablespace TS2 (includes 2 database files)| Snapshot copies created| Total number of Snapshot copies
 a|
@@ -46,6 +47,7 @@ TS2_2.dbf
 a|
 1 per volume
 |===
+[options="header"]
 |===
 | Volumes in database| Tablespace TS1 (includes 2 database files)| Tablespace TS2 (includes 2 database files)| Snapshot copies created| Total number of Snapshot copies
 a|

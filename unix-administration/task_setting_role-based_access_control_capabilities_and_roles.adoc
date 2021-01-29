@@ -1,7 +1,7 @@
 ---
 permalink: unix-administration/task_setting_role-based_access_control_capabilities_and_roles.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After you enable role-based access control \(RBAC\) for SnapManager using SnapDrive, you can add RBAC capabilities and users to roles to perform SnapManager operations.'
 ---
 = Setting role-based access control capabilities and roles
@@ -21,6 +21,7 @@ You can use either the Operations Manager web interface or the Data Fabric Manag
 
 The table lists the RBAC capabilities required to perform SnapManager operations:
 
+[options="header"]
 |===
 | SnapManager operations| RBAC capabilities required when data protection is not enabled| RBAC capabilities required when data protection is enabled
 a|

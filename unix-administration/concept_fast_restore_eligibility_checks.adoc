@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_fast_restore_eligibility_checks.html
 sidebar: sidebar
-keywords: 
-summary: 'When you choose to perform a fast restore of a backup, SnapManager first performs an eligibility check to determine whether the fast restore process can be used.'
+keywords: perform, fast, restore, backup, snapmanager, elegibility, ascs, voting, disk, ocr, asm, 11gr2
+summary: When you choose to perform a fast restore of a backup, SnapManager first performs an eligibility check to determine whether the fast restore process can be used.
 ---
 = Fast restore eligibility checks
 :icons: font
@@ -18,6 +18,7 @@ SnapManager provides the following types of checks:
 
 The following table lists issues that you might encounter and indicates whether the fast restore eligibility check can be overridden:
 
+[options="header"]
 |===
 | Issue| Pass required| Details
 a|
