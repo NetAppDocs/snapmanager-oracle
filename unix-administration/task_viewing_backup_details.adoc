@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_viewing_backup_details.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the detailed information about a particular backup in a profile by using the smo backup show command.'
+keywords: view, detail, information, particular, backup, profile, smo, show, command
+summary: You can view the detailed information about a particular backup in a profile by using the smo backup show command.
 ---
 = Viewing backup details
 :icons: font
@@ -58,7 +58,8 @@ However, archive log file backup contains the following additional information:
 * Incarnation
 * Log file name
 
-. Enter the following command:smo backup show -profileprofile_name {-labellabel [data | -archivelogs] | -id id [-quiet | -verbose]
+. Enter the following command:
+  `smo backup show -profileprofile_name {-labellabel [data | -archivelogs] | -id id [-quiet | -verbose]`
 
 *Related information*
 

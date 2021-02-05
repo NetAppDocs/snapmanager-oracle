@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_use_snapmanager_for_oracle_to_restore_a_local_backup_on_primary_storage.html
 sidebar: sidebar
-keywords: 
-summary: 'You can restore local backups that exist on primary storage. The entire process is performed using SnapManager for Oracle .'
+keywords: restore, local, backup, exist, primary, storage, entire, process, perform, snapmanager, oracle,
+summary: You can restore local backups that exist on primary storage. The entire process is performed using SnapManager for Oracle .
 ---
 = Using SnapManager for Oracle to restore a local backup on primary storage
 :icons: font

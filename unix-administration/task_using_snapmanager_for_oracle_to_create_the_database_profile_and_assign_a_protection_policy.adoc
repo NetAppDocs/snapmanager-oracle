@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_using_snapmanager_for_oracle_to_create_the_database_profile_and_assign_a_protection_policy.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a profile in SnapManager for Oracle, enable protection in the profile, and assign a protection policy to create a protected backup.'
+keywords: create, profile, snapmanager, oracle, enable, protect, client, payroll, paydb
+summary: You must create a profile in SnapManager for Oracle, enable protection in the profile, and assign a protection policy to create a protected backup.
 ---
 = Using SnapManager for Oracle to create the database profile and assign a protection policy
 :icons: font

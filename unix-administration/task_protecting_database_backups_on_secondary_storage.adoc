@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_protecting_database_backups_on_secondary_storage.html
 sidebar: sidebar
-keywords: SnapManager
-summary: 'You can use SnapManager to protect the backup copies on secondary or tertiary storage systems.'
+keywords: snapmanager, protect, backup, copies, secondary, tertiary, storage, system, smo
+summary: You can use SnapManager to protect the backup copies on secondary or tertiary storage systems.
 ---
 = Protecting database backups on secondary or tertiary storage
 :icons: font
@@ -11,7 +11,8 @@ summary: 'You can use SnapManager to protect the backup copies on secondary or t
 [.lead]
 You can use SnapManager to protect the backup copies on secondary or tertiary storage systems.
 
-. Enter the following command: smo backup create -profile profile_name {[-full {-online | -offline | -auto} [-retain {-hourly | -daily | -weekly | -monthly | -unlimited}] [-verify] | [-data [[-filesfiles [files]] | [-tablespaces-tablespaces [-tablespaces]] [-datalabellabel] {-online | -offline | -auto} [-retain {-hourly | [-daily | -weekly | -monthly | -unlimited]} [-verify] | [-archivelogs [-labellabel] [-commentcomment] [-snapvaultlabelSnapVault_label][-protect | -noprotect | -protectnow] [-backup-destpath1 [,[path2]]] [-exclude-destpath1 [,path2]]] [-prunelogs {-all | -untilSCNuntilSCN | -until-date yyyy-MM-dd:HH:mm:ss | -before {-months | -days | -weeks | -hours}} -prune-destprune_dest1,[prune_dest2]] [-taskspectaskspec]} [-dump] [-force] [-quiet | -verbose]
+. Enter the following command:
+  `smo backup create -profile profile_name {[-full {-online | -offline | -auto} [-retain {-hourly | -daily | -weekly | -monthly | -unlimited}] [-verify] | [-data [[-filesfiles [files]] | [-tablespaces-tablespaces [-tablespaces]] [-datalabellabel] {-online | -offline | -auto} [-retain {-hourly | [-daily | -weekly | -monthly | -unlimited]} [-verify] | [-archivelogs [-labellabel] [-commentcomment] [-snapvaultlabelSnapVault_label][-protect | -noprotect | -protectnow] [-backup-destpath1 [,[path2]]] [-exclude-destpath1 [,path2]]] [-prunelogs {-all | -untilSCNuntilSCN | -until-date yyyy-MM-dd:HH:mm:ss | -before {-months | -days | -weeks | -hours}} -prune-destprune_dest1,[prune_dest2]] [-taskspectaskspec]} [-dump] [-force] [-quiet | -verbose]`
 +
 [options="header"]
 |===

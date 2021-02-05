@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_ensuring_that_asm_discovers_imported_disks.html
 sidebar: sidebar
-keywords:
-summary: 'If you are using Automatic Storage Management \(ASM\) in an NFS environment, after installing SnapManager, you must ensure that ASM can discover the disks imported by SnapManager. You can do this by adding the path of the ASM directory to the ASM_DISKSTRING parameter.'
+keywords: automatic, storage, management, asm, nfs, environment, install, snapmanager, discover, import, disk, snapmanager
+summary: If you are using Automatic Storage Management \(ASM\) in an NFS environment, after installing SnapManager, you must ensure that ASM can discover the disks imported by SnapManager. You can do this by adding the path of the ASM directory to the ASM_DISKSTRING parameter.
 ---
 = Ensuring that ASM discovers imported disks
 :icons: font

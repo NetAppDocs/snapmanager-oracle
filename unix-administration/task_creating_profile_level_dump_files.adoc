@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_creating_profile_level_dump_files.html
 sidebar: sidebar
-keywords: 
-summary: 'You can find log information about a particular profile by using the smo profile dump command with the name of the profile.'
+keywords: find, log, information, particular, profile, smo, dump, command, name, profile-level
+summary: You can find log information about a particular profile by using the smo profile dump command with the name of the profile.
 ---
 = Creating profile-level dump files
 :icons: font

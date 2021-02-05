@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_mounting_backups.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager automatically handles the mounting of a backup to make it available to the host. You can also mount backups in scenarios where you use an external tool, such as Oracle Recovery Manager \(RMAN\), to access the files in the backup.'
+keywords: snapmanager, automatic, handle, mount, backup, available, host, scenario, rman, 7-mode
+summary: SnapManager automatically handles the mounting of a backup to make it available to the host. You can also mount backups in scenarios where you use an external tool, such as Oracle Recovery Manager \(RMAN\), to access the files in the backup.
 ---
 = Mounting backups
 :icons: font
@@ -25,7 +25,8 @@ If you are mounting a database backup to a remote host, you must ensure that the
 
 NOTE: You can optionally collect the dump files after a successful or failed backup mount operation.
 
-. To Mount a backup enter the following command: smo backup mount -profile profile_name {labellabel [data | -archivelogs] | -idid} [-host-host] [-from-secondary [-copy-id id]] [-dump] [-quiet | -verbose]
+. To Mount a backup enter the following command:
+  `smo backup mount -profile profile_name {labellabel [data | -archivelogs] | -idid} [-host-host] [-from-secondary [-copy-id id]] [-dump] [-quiet | -verbose]`
 
 *Related information*
 

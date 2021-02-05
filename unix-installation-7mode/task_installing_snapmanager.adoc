@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-7mode/task_installing_snapmanager.html
 sidebar: sidebar
-keywords:
-summary: 'You must install SnapManager on each host where the database you want to backup is running.'
+keywords: install, snapmanager, host, database, backup, run, snapdrive, unix, real, application, cluster, rac
+summary: You must install SnapManager on each host where the database you want to backup is running.
 ---
 = Installing SnapManager
 :icons: font

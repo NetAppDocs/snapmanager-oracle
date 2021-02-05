@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_deleting_profiles.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a profile anytime, as long as it does not contain successful or incomplete backups. You can delete profiles that contain freed or deleted backups.'
+keywords: delete, profile, anytime, contain, succesful, incomplete, backup, deleting, smo
+summary: You can delete a profile anytime, as long as it does not contain successful or incomplete backups. You can delete profiles that contain freed or deleted backups.
 ---
 = Deleting profiles
 :icons: font
@@ -11,7 +11,8 @@ summary: 'You can delete a profile anytime, as long as it does not contain succe
 [.lead]
 You can delete a profile anytime, as long as it does not contain successful or incomplete backups. You can delete profiles that contain freed or deleted backups.
 
-. To delete a profile, enter this command:smo profile delete -profile profile_name
+. To delete a profile, enter this command:
+  `smo profile delete -profile profile_name`
 
 *Related information*
 

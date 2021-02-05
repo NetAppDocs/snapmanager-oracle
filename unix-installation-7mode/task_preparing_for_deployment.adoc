@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-7mode/task_preparing_for_deployment.html
 sidebar: sidebar
-keywords:
-summary: 'Before you deploy SnapManager, you must ensure your storage system and UNIX hosts meet the minimum resource requirements.'
+keywords: before, deploy, snapmanager, storage, system, unix, host, minimum, resource, requirements, preparing, deployment
+summary: Before you deploy SnapManager, you must ensure your storage system and UNIX hosts meet the minimum resource requirements.
 ---
 = Preparing for deployment
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_viewing_sample_plugin_scripts.html
 sidebar: sidebar
-keywords:
-summary: 'SnapManager includes scripts that you can use as examples for how to make your own scripts or as a basis for your custom scripts.'
+keywords: snapmanager, include, script, example, script, basis, custom, bash
+summary: SnapManager includes scripts that you can use as examples for how to make your own scripts or as a basis for your custom scripts.
 ---
 = Viewing sample plug-in scripts
 :icons: font
@@ -59,7 +59,8 @@ Post-task
 |===
 Scripts delivered with SnapManager use the BASH shell by default. You must ensure that support for the BASH shell is installed on your operating system before attempting to run any of the sample scripts.
 
-. To verify that you are using the BASH shell, enter the following command at the command prompt: bash
+. To verify that you are using the BASH shell, enter the following command at the command prompt:
+  `bash`
 +
 If you do not see an error, the BASH shell is operating properly.
 +

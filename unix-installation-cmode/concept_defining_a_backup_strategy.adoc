@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-cmode/concept_defining_a_backup_strategy.html
 sidebar: sidebar
-keywords: 
-summary: 'Defining a backup strategy before creating your backups ensures that you have backups to successfully restore your databases. SnapManager provides flexible granular backup schedule to meet your Service Level Agreement \(SLA\).'
+keywords: defining, backup, strategy, creating, backup, ensure, successful, database, snapmanager, flexible, granular, backup, schedule, service, level, agreement, sla
+summary: Defining a backup strategy before creating your backups ensures that you have backups to successfully restore your databases. SnapManager provides flexible granular backup schedule to meet your Service Level Agreement \(SLA\).
 ---
 = Defining a backup strategy
 :icons: font
