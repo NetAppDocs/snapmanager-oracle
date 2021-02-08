@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-cmode/task_starting_the_snapmanager_server.html
 sidebar: sidebar
-keywords: 
-summary: 'You must start the SnapManager server from the target database host.'
+keywords: start, snapmanager, server, target, database, host, smo
+summary: You must start the SnapManager server from the target database host.
 ---
 = Starting the SnapManager server
 :icons: font
@@ -11,7 +11,8 @@ summary: 'You must start the SnapManager server from the target database host.'
 [.lead]
 You must start the SnapManager server from the target database host.
 
-. Log in to the target database host and start the SnapManager server: smo_server start
+. Log in to the target database host and start the SnapManager server:
+  `smo_server start`
 +
 The following message is displayed: SnapManager Server started on secure port port_number with PID PID_number.
 +
