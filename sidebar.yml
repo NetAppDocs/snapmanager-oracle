@@ -2,7 +2,9 @@
 entries:
 - title: Home
   url: "/index.html"
-- title: unix-administration
+- title: Release Notes
+  url: "/releasenotes.html"
+- title: Administration for UNIX
   url: "/unix-administration/index.html"
   entries:
   - title: Product overview
@@ -789,7 +791,7 @@ entries:
     url: "/unix-administration/reference_error_message_classifications.html"
   - title: Error messages
     url: "/unix-administration/reference_error_messages.html"
-- title: unix-installation-7mode
+- title: Installation and Setup for UNIX for Data ONTAP Operating in 7-mode
   url: "/unix-installation-7mode/index.html"
   entries:
   - title: Product overview
@@ -851,7 +853,7 @@ entries:
       url: "/unix-installation-7mode/task_scheduling_recurring_backups.html"
   - title: Where to go next
     url: "/unix-installation-7mode/reference_where_to_go_next.html"
-- title: unix-installation-cmode
+- title: Installation and Setup for UNIX for Clustered Data ONTAP
   url: "/unix-installation-cmode/index.html"
   entries:
   - title: Product overview
@@ -922,7 +924,7 @@ entries:
       url: "/unix-installation-cmode/task_scheduling_recurring_backups.html"
   - title: Where to go next
     url: "/unix-installation-cmode/reference_where_to_go_next.html"
-- title: windows
+- title: Installation and Setup for Windows
   url: "/windows/index.html"
   entries:
   - title: What SnapManagerfor Oracle is
@@ -1566,3 +1568,5 @@ entries:
     url: "/windows/reference_error_message_classifications.html"
   - title: Error messages
     url: "/windows/reference_error_messages.html"
+- title: Legal Notices
+  url: "/reference_legal_notices.html"    

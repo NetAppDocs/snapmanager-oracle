@@ -2,39 +2,12 @@
 permalink: unix-installation-7mode/index.html
 sidebar: sidebar
 keywords: installation, setup, guide, unix
-summary: Installation and Setup Guide for UNIX®
+summary: "SnapManager for Oracle 3.4.2 nstallation and Setup Guide for UNIX®"
 ---
 = Installation and Setup Guide for UNIX®
 :icons: font
 :imagesdir: ../media/
 
-* xref:reference_product_overview.adoc[Product overview]
- ** xref:reference_snapmanager_architecture.adoc[SnapManager architecture]
-* xref:reference_deployment_workflow.adoc[Deployment workflow]
-* xref:task_preparing_for_deployment.adoc[Preparing for deployment]
- ** xref:reference_snapmanager_licensing.adoc[SnapManager licensing]
- ** xref:reference_supported_configurations.adoc[Supported configurations]
- ** xref:reference_supported_storage_types.adoc[Supported storage types]
- ** xref:reference_host_requirements.adoc[UNIX host requirements]
-* xref:task_configuring_databases.adoc[Configuring databases]
- ** xref:task_configuring_the_target_database.adoc[Configuring the target database]
- ** xref:task_creating_an_oracle_user_for_the_target_database.adoc[Creating an Oracle database user for the target database]
- ** xref:task_creating_the_repository_database_instance.adoc[Creating the repository database instance]
- ** xref:task_creating_an_oracle_user_for_the_repository_database_instance.adoc[Creating an Oracle user for the repository database instance]
- ** xref:task_verifying_the_oracle_listener_configuration.adoc[Verifying the Oracle listener configuration]
-* xref:task_installing_snapmanager.adoc[Installing SnapManager]
-* xref:task_setting_up_snapmanager.adoc[Setting up SnapManager]
- ** xref:task_starting_the_snapmanager_server.adoc[Starting the SnapManager server]
- ** xref:task_accessing_the_snapmanager_user_interface.adoc[Accessing the SnapManager user interface]
- ** xref:task_configuring_the_snapmanager_repository.adoc[Configuring the SnapManager repository]
-* xref:concept_backing_up_and_verifying_your_databases.adoc[Backing up and verifying your databases]
- ** xref:concept_snapmanager_backup_overview.adoc[SnapManager backup overview]
- ** xref:concept_defining_a_backup_strategy.adoc[Defining a backup strategy]
- ** xref:task_creating_a_profile_for_your_database.adoc[Creating a profile for your database]
- ** xref:task_backing_up_your_database.adoc[Backing up your database]
- ** xref:task_verifying_database_backups.adoc[Verifying database backups]
- ** xref:task_scheduling_recurring_backups.adoc[Scheduling recurring backups]
-* xref:reference_where_to_go_next.adoc[Where to go next]
-* xref:delete_reference_copyright.adoc[Copyright information]
-* xref:delete_reference_trademark.adoc[Trademark information]
-* xref:delete_concept_how_to_send_comments_about_documentation_and_receiv.adoc[How to send comments about documentation and receive update notifications]
+[.lead]
+
+This guide escribes initial tasks you need to perform to deploy SnapManager 3.4.2 for Oracle with Data ONTAP operating in 7-Mode in a UNIX environment. Topics include how to install and configure the product and how to back up the databases.
