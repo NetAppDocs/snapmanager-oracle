@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_backup_recovery.html
 sidebar: sidebar
-keywords: 
-summary: 'In SnapManager, you must perform the restore and recover operations at the same time. You cannot perform a restore operation and then perform a SnapManager recover operation later.'
+keywords: backup, recover, restore, operation
+summary: In SnapManager, you must perform the restore and recover operations at the same time. You cannot perform a restore operation and then perform a SnapManager recover operation later.
 ---
 = Backup recovery
 :icons: font

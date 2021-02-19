@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_snapdrive_on_snapmanager_server.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager uses SnapDrive for Windows to create Snapshot copies of the storage system. SnapDrive resides on the same server as SnapManager.'
+keywords: snapdrive, server, snapshot, copies, copy
+summary: SnapManager uses SnapDrive for Windows to create Snapshot copies of the storage system. SnapDrive resides on the same server as SnapManager.
 ---
 = SnapDrive on SnapManager server
 :icons: font

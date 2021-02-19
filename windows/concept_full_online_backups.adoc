@@ -1,7 +1,7 @@
 ---
 permalink: windows/concept_full_online_backups.html
 sidebar: sidebar
-keywords: 
+keywords: full, online, backup, database, snapshot, copies, copy
 summary: 'During a full online backup, SnapManager backs up the entire database and creates Snapshot copies at the volume level \(not at the tablespace level\).'
 ---
 = Full online backups

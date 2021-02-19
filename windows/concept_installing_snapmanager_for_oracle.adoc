@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_installing_snapmanager_for_oracle.html
 sidebar: sidebar
-keywords: 
-summary: 'You can download and install SnapManager for Oracle in your environment and perform operations such as database backup, restore, recovery, and cloning.'
+keywords: download, oracle, install, operation, database, backup, restore, cloning, clone
+summary: You can download and install SnapManager for Oracle in your environment and perform operations such as database backup, restore, recovery, and cloning.
 ---
 = Installing SnapManager for Oracle
 :icons: font
