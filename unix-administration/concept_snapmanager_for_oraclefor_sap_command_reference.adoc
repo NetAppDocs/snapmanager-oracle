@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_snapmanager_for_oraclefor_sap_command_reference.html
 sidebar: sidebar
-keywords: 
-summary: 'The SnapManager command reference includes the valid usage syntax, options, parameters, and arguments you should supply with the commands, along with examples.'
+keywords: snapmanager, syntax, options, parameters, argument, oracle, command, reference
+summary: The SnapManager command reference includes the valid usage syntax, options, parameters, and arguments you should supply with the commands, along with examples.
 ---
 = SnapManager for Oracle command reference
 :icons: font

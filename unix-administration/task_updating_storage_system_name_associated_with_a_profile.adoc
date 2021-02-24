@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_updating_storage_system_name_associated_with_a_profile.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager 3.3 or later provides the ability to update the host name or IP address of a storage system associated with a profile.'
+keywords: snapmanager, 3.3, ability, update, host, name, ip, address, storage, system, associate, profile, updating, smo
+summary: SnapManager 3.3 or later provides the ability to update the host name or IP address of a storage system associated with a profile.
 ---
 = Updating the storage system name associated with a profile
 :icons: font
@@ -35,8 +35,10 @@ See _Troubleshooting storage system name issues_ for information about how to us
 
 NOTE: If SnapDrive could not identify the storage system and displays error messages, you can enter the ipmigrate command with the earlier and later host names of the storage system. For additional information about storage system name issues, see _Troubleshooting storage system name issues_.
 
-. Enter the following command: smo storage rename -profileprofile-oldnameold_storage_name-newnamenew_storage_name [quiet | -verbose]
+. Enter the following command:
+  `smo storage rename -profileprofile-oldnameold_storage_name-newnamenew_storage_name [quiet | -verbose]`
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

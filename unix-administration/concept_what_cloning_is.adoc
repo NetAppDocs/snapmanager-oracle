@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_what_cloning_is.html
 sidebar: sidebar
-keywords: 
-summary: 'You can clone a database to create an exact replica of the original database. You can create the clone from a full backup or from the current state of the database.'
+keywords: clone, database, replica, original, database, clone, full, backup, current, system, dlexclone, snapmanager
+summary: You can clone a database to create an exact replica of the original database. You can create the clone from a full backup or from the current state of the database.
 ---
 = What Cloning is
 :icons: font
@@ -13,6 +13,7 @@ You can clone a database to create an exact replica of the original database. Yo
 
 Some of the advantages of creating a clone by using SnapManager are as follows:
 
+[options="header"]
 |===
 | Advantages| Details
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_restoring_backups_on_primary_storage.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the backup restore command to restore a database backup on primary storage.'
+keywords: backup, restore, command, database, primary
+summary: You can use the backup restore command to restore a database backup on primary storage.
 ---
 = Restoring backups on primary storage
 :icons: font
@@ -17,6 +17,7 @@ You can use the backup restore command options to specify whether SnapManager sh
 
 You can select one of the following options to restore the backup:
 
+[options="header"]
 |===
 | If you want to restore...| Use...
 a|
@@ -91,6 +92,7 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 - comp
 
 . To restore data for different scenarios, complete one of the following:
 +
+[options="header"]
 |===
 | If you want to restore...| Command Example
 a|

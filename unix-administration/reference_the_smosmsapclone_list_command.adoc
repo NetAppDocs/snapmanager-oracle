@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsapclone_list_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command lists the clones of the database for a given profile.'
+keywords: command, list, clone, database, given, profile, smo
+summary: This command lists the clones of the database for a given profile.
 ---
 = The smo clone list command
 :icons: font
@@ -15,9 +15,9 @@ This command lists the clones of the database for a given profile.
 
 ----
 
-        smo clone list 
--profile profile_name 
--delimiter character 
+        smo clone list
+-profile profile_name
+-delimiter character
 \[-quiet \| -verbose\]
 ----
 

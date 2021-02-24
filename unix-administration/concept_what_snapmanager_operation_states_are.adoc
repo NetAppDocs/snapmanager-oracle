@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_what_snapmanager_operation_states_are.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager operations \(backup, restore, and clone\) can be in different states, with each state indicating the progress of the operation.'
+keywords: snapmanager, operation, backup, restore, clone, state, progress, operation
+summary: SnapManager operations \(backup, restore, and clone\) can be in different states, with each state indicating the progress of the operation.
 ---
 = What SnapManager operation states are
 :icons: font
@@ -11,6 +11,7 @@ summary: 'SnapManager operations \(backup, restore, and clone\) can be in differ
 [.lead]
 SnapManager operations (backup, restore, and clone) can be in different states, with each state indicating the progress of the operation.
 
+[options="header"]
 |===
 | Operation state| Description
 a|

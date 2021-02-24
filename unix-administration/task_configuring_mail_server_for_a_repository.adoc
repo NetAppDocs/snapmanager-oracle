@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_configuring_mail_server_for_a_repository.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager enables you to specify the mail server details from which the email alerts are sent.'
+keywords: snapmanager, enable, specify, mail, server, detail, alert, repository, ip, address, email, server, smo, notification, set
+summary: SnapManager enables you to specify the mail server details from which the email alerts are sent.
 ---
 = Configuring a mail server for a repository
 :icons: font
@@ -23,6 +23,7 @@ Other options for this command are as follows:
 +
 [quiet | -verbose]
 +
+[options="header"]
 |===
 | To do the following...| Then...
 a|

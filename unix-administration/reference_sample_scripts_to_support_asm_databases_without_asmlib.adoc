@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_sample_scripts_to_support_asm_databases_without_asmlib.html
 sidebar: sidebar
-keywords: 
-summary: 'The sample scripts are available in the plugins/examples/noasmlib directory of the SnapManager for Oracle installation directory.'
+keywords: sample, script, plugin, example, noasmlib, snapmanager, oracle, installation, directory, asm, asmlib
+summary: The sample scripts are available in the plugins/examples/noasmlib directory of the SnapManager for Oracle installation directory.
 ---
 = Sample scripts to support ASM databases without ASMLib
 :icons: font

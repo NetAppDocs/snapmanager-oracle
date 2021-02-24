@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_support_for_asm_databases_without_asmlib.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager supports ASM without ASMLib, by default. The basic requirement is that the devices that are used for ASM disk groups must be partitioned.'
+keywords: snapmanager, asm, asmlib, requirement, asm, disk, group, primary, storage, vbsr, secondary
+summary: SnapManager supports ASM without ASMLib, by default. The basic requirement is that the devices that are used for ASM disk groups must be partitioned.
 ---
 = Support for ASM databases without ASMLib
 :icons: font

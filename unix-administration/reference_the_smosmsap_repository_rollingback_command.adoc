@@ -1,27 +1,27 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_repository_rollingback_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command enables you to roll back or revert from a higher version of SnapManager to the original version from which you upgraded.'
+keywords: command, enable, rollback, revert, higher, version, snapmanager, original, version, upgrade, smo, repository
+summary: This command enables you to rollback or revert from a higher version of SnapManager to the original version from which you upgraded.
 ---
 = The smo repository rollback command
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This command enables you to roll back or revert from a higher version of SnapManager to the original version from which you upgraded.
+This command enables you to rollback or revert from a higher version of SnapManager to the original version from which you upgraded.
 
 == Syntax
 
 ----
 
-        smo repository rollback 
--repository 
--dbname repo_service_name 
--host repo_host 
--login -username repo_username 
--port repo_port 
--rollbackhost host_with_target_database 
+        smo repository rollback
+-repository
+-dbname repo_service_name
+-host repo_host
+-login -username repo_username
+-port repo_port
+-rollbackhost host_with_target_database
 [-force]
 \[-quiet \| -verbose\]
 ----

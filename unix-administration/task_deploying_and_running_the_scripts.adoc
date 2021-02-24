@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_deploying_and_running_the_scripts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can deploy and run the asmmain.sh and asmquerydisk.sh scripts to support ASM databases without ASMLib.'
+keywords: deploy, run, asmmain.sh, asmquerydisk.sh, script, support, asm, database, asmlib, disk, group, oracleasm
+summary: You can deploy and run the asmmain.sh and asmquerydisk.sh scripts to support ASM databases without ASMLib.
 ---
 = Deploying and running the scripts
 :icons: font

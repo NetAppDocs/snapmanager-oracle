@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_updating_profiles.html
 sidebar: sidebar
-keywords: 
-summary: 'You can update the profiles to modify the profile password, the number of backups to retain, access to the database, the operating system \(OS\) authentication to database authentication and vice versa, and information about the host. If the Oracle database password information changes, you must also change that information in the profile.'
+keywords: update, profile, modify, password, number, backup, retain, access, database, operating, system, os, smo
+summary: You can update the profiles to modify the profile password, the number of backups to retain, access to the database, the operating system \(OS\) authentication to database authentication and vice versa, and information about the host. If the Oracle database password information changes, you must also change that information in the profile.
 ---
 = Updating profiles
 :icons: font
@@ -15,7 +15,8 @@ If protection policy is enabled on the profile, you cannot change the policy by 
 
 SnapManager (3.2 or later) enables you to update the profile to separate archive log backups from the data file backups by using the -separate-archivelog-backups option. You can specify separate retention durationand protection policy for the archive log backup. SnapManager enables you to include the archive log backup along with online database backup. You can also create an online datafile backup and archive log backup together for cloning. When you create an online data files backup, the archive logs backups are immediately created along with the data files.
 
-. Enter the following command: smo profile update -profileprofile [-new-profilenew_profile_name] [-profile-passwordprofile_password][-database-dbnamedb_dbname-host db_host [-siddb_sid] [-login -usernamedb_username-password db_password-port db_port][-asminstance-asmusernameasminstance_username-asmpasswordasminstance_password]] [{-rman{-controlfile | {-login  -usernamerman_username-password  rman_password-tnsname  rman_tnsname}}} | -remove-rman]-osaccountosaccount-osgrouposgroup [-retain [-hourly [-countn] [-durationm]] [-daily [-countn] [-durationm]] [-weekly [-countn] [-durationm]] [-monthly [-countn] [-durationm]]] [-commentcomment][-snapname-patternpattern][[-protect [-protection-policypolicy_name]]| [[-noprotect]] [-summary-notification] [-notification [-success-emailemail_address1, email_address2-subjectsubject_pattern] [-failure-emailemail_address1, email_address2-subjectsubject_pattern]] [-separate-archivelog-backups-retain-archivelog-backups-hourshours | -daysdays | -weeksweeks| -monthsmonths [-protect [-protection-policypolicy_name] | -noprotect] [-include-with-online-backups | -no-include-with-online-backups]] [-dump]
+. Enter the following command:
+  `smo profile update -profileprofile [-new-profilenew_profile_name] [-profile-passwordprofile_password][-database-dbnamedb_dbname-host db_host [-siddb_sid] [-login -usernamedb_username-password db_password-port db_port][-asminstance-asmusernameasminstance_username-asmpasswordasminstance_password]] [{-rman{-controlfile | {-login  -usernamerman_username-password  rman_password-tnsname  rman_tnsname}}} | -remove-rman]-osaccountosaccount-osgrouposgroup [-retain [-hourly [-countn] [-durationm]] [-daily [-countn] [-durationm]] [-weekly [-countn] [-durationm]] [-monthly [-countn] [-durationm]]] [-commentcomment][-snapname-patternpattern][[-protect [-protection-policypolicy_name]]| [[-noprotect]] [-summary-notification] [-notification [-success-emailemail_address1, email_address2-subjectsubject_pattern] [-failure-emailemail_address1, email_address2-subjectsubject_pattern]] [-separate-archivelog-backups-retain-archivelog-backups-hourshours | -daysdays | -weeksweeks| -monthsmonths [-protect [-protection-policypolicy_name] | -noprotect] [-include-with-online-backups | -no-include-with-online-backups]] [-dump]`
 +
 Other options for this command are as follows:
 +
@@ -23,6 +24,7 @@ Other options for this command are as follows:
 +
 [quiet | verbose]
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -114,7 +116,8 @@ a|
 Specify the -dump option.
 |===
 
-. To view the updated profile, enter the following command: smo profile show
+. To view the updated profile, enter the following command:
+  `smo profile show`
 
 *Related information*
 

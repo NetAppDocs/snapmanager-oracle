@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-7mode/task_starting_the_snapmanager_server.html
 sidebar: sidebar
-keywords: 
-summary: 'You must start the SnapManager server from the target database host.'
+keywords: snapmanager, target, database, host
+summary: You must start the SnapManager server from the target database host.
 ---
 = Starting the SnapManager server
 :icons: font
@@ -13,10 +13,12 @@ You must start the SnapManager server from the target database host.
 
 . Log in to the target database host and start the SnapManager server:
 +
-The following message is displayed: SnapManager Server started on secure port port_number with PID PID_number.
+The following message is displayed:
+  'SnapManager Server started on secure port port_number with PID PID_number.'
 +
 NOTE: The default port is 27214.
 
 You can verify that SnapManager is running correctly:
 
-The following message is displayed: Operation Id operation_ID_number succeeded.
+The following message is displayed:
+  'Operation Id operation_ID_number succeeded.'

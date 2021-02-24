@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_purging_history_of_snapmanager_operation.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete the history of the SnapManager operation, if you no longer require the history details.'
+keywords: delete, history, snapmanager, operation, longer, require, detail, smo
+summary: You can delete the history of the SnapManager operation, if you no longer require the history details.
 ---
 = Deleting history of SnapManager operation
 :icons: font
@@ -11,4 +11,5 @@ summary: 'You can delete the history of the SnapManager operation, if you no lon
 [.lead]
 You can delete the history of the SnapManager operation, if you no longer require the history details.
 
-. To delete the history of the SnapManager operation, enter the following command: smo history purge -profile {-name, profile_nameprofile_name1, profile_name2] | all-repository-login [-passwordrepo_password] -usernamerepo_username-dbnamerepo_dbname-hostrepo_host-portrepo_port} -operation {-operationsoperation_name [operation_name1, operation_name2] | -all} [-quiet | -verbose]
+. To delete the history of the SnapManager operation, enter the following command:
+  `smo history purge -profile {-name, profile_nameprofile_name1, profile_name2] | all-repository-login [-passwordrepo_password] -usernamerepo_username-dbnamerepo_dbname-hostrepo_host-portrepo_port} -operation {-operationsoperation_name [operation_name1, operation_name2] | -all} [-quiet | -verbose]`

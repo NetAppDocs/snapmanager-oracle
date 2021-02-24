@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_server_stop_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command stops the SnapManager host server and is entered at the root.'
+keywords: command, stop, snapmanager, host, server, enter, root, smo_server
+summary: This command stops the SnapManager host server and is entered at the root.
 ---
 = The smo_server stop command
 :icons: font
@@ -15,7 +15,7 @@ This command stops the SnapManager host server and is entered at the root.
 
 ----
 
-        smo_server stop 
+        smo_server stop
 \[-quiet \| -verbose\]
 ----
 
