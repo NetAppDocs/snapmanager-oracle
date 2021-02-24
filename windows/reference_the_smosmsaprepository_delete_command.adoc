@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_the_smosmsaprepository_delete_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command deletes a repository used to store database profiles and associated credentials. You can delete a repository only if there are no profiles in the repository.'
+keywords: command, delete, repository, store, database, associate, credential, delete, smo
+summary: This command deletes a repository used to store database profiles and associated credentials. You can delete a repository only if there are no profiles in the repository.
 ---
 = The smo repository delete command
 :icons: font
@@ -15,13 +15,13 @@ This command deletes a repository used to store database profiles and associated
 
 ----
 
-        smo repository delete 
--repository 
--port repo_port 
--dbname repo_service_name 
--host repo_host 
--login -username repo_username 
-[-force] [-noprompt] 
+        smo repository delete
+-repository
+-port repo_port
+-dbname repo_service_name
+-host repo_host
+-login -username repo_username
+[-force] [-noprompt]
 [-quiet | -verbose]
 ----
 

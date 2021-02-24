@@ -1,8 +1,8 @@
 ---
 permalink: windows/task_using_post_processing_task_specification_to_vault_qtrees.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Oracle enables you to use the script to vault the qtrees after the backup operation takes place in a Windows environment.'
+keywords: snapmanager, oracle, enable, script, vault, qtree, backup, operation, windows, environment, post-process, vault
+summary: SnapManager for Oracle enables you to use the script to vault the qtrees after the backup operation takes place in a Windows environment.
 ---
 = Using post-processing task specification to vault qtrees
 :icons: font
