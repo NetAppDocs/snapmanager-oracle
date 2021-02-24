@@ -7,4 +7,4 @@ summary: Describes new features, upgrade notes, fixed issues, known limitations,
 = Snap Creator Framework 4.3.3 Release Notes
 
 The Snap Creator Framework 4.3.3 Release Notes describe new features, upgrade notes, fixed issues, known limitations, and known issues.
-You are require to sign on to the NetApp Support Site to access the Release Notes.
+You are required to sign on to the NetApp Support Site to access the Release Notes.
