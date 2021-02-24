@@ -32,4 +32,4 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx
 
 Notice files provide information about third-party copyright and licenses used in NetApp software.
 
-link:media/notice.pdf[Notice for Snap Creator Framework 4.3.3^]
+link:media/notice.pdf[Notice for SnapManager for Oracle^]
