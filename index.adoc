@@ -6,4 +6,4 @@ sidebar: sidebar
 
 [.lead]
 
-Welcome to the SnapManager for Oracle Information Library.  Here you will find information for SnapManager 3.4.2 for Oracle including how to set up, manage, and configure the software for clustered Data ONTAP and for Data ONTAP operating in 7-mode
+Welcome to the SnapManager for Oracle Information Library.  Here you will find information for SnapManager 3.4.2 for Oracle including how to set up, manage, and configure the software for clustered Data ONTAP and for Data ONTAP operating in 7-mode.
