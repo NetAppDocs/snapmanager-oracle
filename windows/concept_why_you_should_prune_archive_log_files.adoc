@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_why_you_should_prune_archive_log_files.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Oracle enables you to delete archive log files from the active file system that are already backed up.'
+keywords: oracle, enable, delete, archive, log, file, back, up, prune
+summary: SnapManager for Oracle enables you to delete archive log files from the active file system that are already backed up.
 ---
 = Why you should prune archive log files
 :icons: font

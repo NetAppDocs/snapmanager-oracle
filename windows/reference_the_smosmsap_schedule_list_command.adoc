@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_the_smosmsap_schedule_list_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command lists the scheduled operations associated with a profile.'
+keywords: command, list, schedule, operation, associate, profile, smo
+summary: This command lists the scheduled operations associated with a profile.
 ---
 = The smo schedule list command
 :icons: font
@@ -16,7 +16,7 @@ This command lists the scheduled operations associated with a profile.
 ----
 
         smo schedule list
--profile profile_name 
+-profile profile_name
 \[-quiet \| -verbose\]
 ----
 

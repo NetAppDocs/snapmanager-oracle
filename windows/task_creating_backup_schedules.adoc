@@ -1,8 +1,8 @@
 ---
 permalink: windows/task_creating_backup_schedules.html
 sidebar: sidebar
-keywords: 
-summary: 'You can schedule a backup to occur at the time and frequency that are suited for your data and environment.'
+keywords: schedule, backup, occur, time, frequency, suited, data, environment, creating
+summary: You can schedule a backup to occur at the time and frequency that are suited for your data and environment.
 ---
 = Creating backup schedules
 :icons: font

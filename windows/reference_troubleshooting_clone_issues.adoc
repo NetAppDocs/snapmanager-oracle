@@ -1,7 +1,7 @@
 ---
 permalink: windows/reference_troubleshooting_clone_issues.html
 sidebar: sidebar
-keywords: 
+keywords: information, occur, during, operation, resolve, troubleshooting, clone, issues
 summary: 'You can find information about that might occur during clone operations and how you can resolve them.'
 ---
 = Troubleshooting clone issues
