@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_protecting_database_backups_by_using_post_scripts.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager enables you to protect database backups by using postscripts when SnapMirror or SnapVault relationship is established between the primary and secondary storage systems. You can use the default postscripts for post-processing activity of the backup operation from both the SnapManager CLI and GUI.'
+keywords: enable, protect, database, backup, postscript, snapmirror, snapvault, relationship, postscript, cli, gui
+summary: SnapManager enables you to protect database backups by using postscripts when SnapMirror or SnapVault relationship is established between the primary and secondary storage systems. You can use the default postscripts for post-processing activity of the backup operation from both the SnapManager CLI and GUI.
 ---
 = Protecting database backups by using postscripts
 :icons: font

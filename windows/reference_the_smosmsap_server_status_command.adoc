@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_the_smosmsap_server_status_command.html
 sidebar: sidebar
-keywords: 
-summary: 'You can run the smo_server status command to view the status of the SnapManager host server.'
+keywords: smo, server, status, command, host
+summary: You can run the smo_server status command to view the status of the SnapManager host server.
 ---
 = The smo_server status command
 :icons: font
@@ -15,7 +15,7 @@ You can run the smo_server status command to view the status of the SnapManager 
 
 ----
 
-        smo_server status 
+        smo_server status
 \[-quiet \| -verbose\]
 ----
 

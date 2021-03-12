@@ -1,8 +1,8 @@
 ---
 permalink: windows/task_starting_snapmanager_for_oraclefor_sap.html
 sidebar: sidebar
-keywords: 
-summary: 'The SnapManager startup section lists the tasks that you perform when you start SnapManager. Use this section also if you are just learning about SnapManager.'
+keywords: snapmanager, startup, section, list, task, oracle, learn
+summary: The SnapManager startup section lists the tasks that you perform when you start SnapManager. Use this section also if you are just learning about SnapManager.
 ---
 = Starting SnapManagerfor Oracle
 :icons: font

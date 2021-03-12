@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_the_smosmsapprofile_list_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command displays a list of the current profiles.'
+keywords: command, display, current, profile, smo
+summary: This command displays a list of the current profiles.
 ---
 = The smo profile list command
 :icons: font
@@ -15,7 +15,7 @@ This command displays a list of the current profiles.
 
 ----
 
-        smo profile list 
+        smo profile list
 \[-quiet \| -verbose\]
 ----
 
