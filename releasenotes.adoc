@@ -1,10 +1,11 @@
 ---
 permalink: releasenotes.html
 sidebar: sidebar
-keywords: release, notes, new, features, fixed, issues, known, limitations
+keywords: release, notes, new, features, fixed, issues, known, limitations, snapmanager, oracle
 summary: Describes new features, upgrade notes, fixed issues, known limitations, and known issues.
 ---
-= Snap Creator Framework 4.3.3 Release Notes
+= SnapManager 3.4.2 for Oracle Release Notes
 
-The Snap Creator Framework 4.3.3 Release Notes describe new features, upgrade notes, fixed issues, known limitations, and known issues.
+The link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2849192[SnapManager 3.4.2 for Oracle Release Notes] describe new features, upgrade notes, fixed issues, known limitations, and known issues.
+
 You are required to sign on to the NetApp Support Site to access the Release Notes.
