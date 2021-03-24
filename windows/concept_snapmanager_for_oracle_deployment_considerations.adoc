@@ -1,8 +1,8 @@
 ---
 permalink: windows/concept_snapmanager_for_oracle_deployment_considerations.html
 sidebar: sidebar
-keywords: 
-summary: 'Before deploying SnapManager in your environment, you should know the other applications and technologies required for different operations.'
+keywords: deploy, environment, application, technologies, technology, operation
+summary: Before deploying SnapManager in your environment, you should know the other applications and technologies required for different operations.
 ---
 = SnapManager for Oracle deployment considerations
 :icons: font

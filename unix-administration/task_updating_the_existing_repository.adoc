@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_updating_the_existing_repository.html
 sidebar: sidebar
-keywords: SnapManager
-summary: 'You do need not to update the existing repository if you are upgrading from SnapManager 3.3.x to SnapManager 3.4 or later, but for all other upgrade paths you must update the existing repository so that you can access it after the upgrade.'
+keywords: update, exist, repository, upgrading, snapmanager, 3.3.x, snapmanager, 3.4, upgrade, smo
+summary: You do need not to update the existing repository if you are upgrading from SnapManager 3.3.x to SnapManager 3.4 or later, but for all other upgrade paths you must update the existing repository so that you can access it after the upgrade.
 ---
 = Updating the existing repository
 :icons: font
@@ -19,7 +19,8 @@ After upgrading to SnapManager 3.2, you can then upgrade to SnapManager 3.3 or l
 
 * After you update the repository, you cannot use the repository with an earlier version of SnapManager.
 
-. Update the existing repository: smo repository update -repository -dbname repository_service_name -host repository_host_name -login -username repository_user_name -port repository_port
+. Update the existing repository:
+  `smo repository update -repository -dbname repository_service_name -host repository_host_name -login -username repository_user_name -port repository_port`
  ** The repository user name, repository service name, and repository host name can consist of alphanumeric characters, a minus sign, an underscore, and a period.
  ** The repository port can be any valid port number.
 The other options used while updating the existing repository are as follows:

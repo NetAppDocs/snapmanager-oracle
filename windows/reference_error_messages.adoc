@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_error_messages.html
 sidebar: sidebar
-keywords: 
-summary: 'You can find information about the error messages associated with different SnapManager operations.'
+keywords: error, message, information, operation
+summary: You can find information about the error messages associated with different SnapManager operations.
 ---
 = Error messages
 :icons: font

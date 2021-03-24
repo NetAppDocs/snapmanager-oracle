@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsapbackup_free_command.html
 sidebar: sidebar
-keywords: 
-summary: 'You can run the backup free command to free the Snapshot copies of the backups without removing the backup metadata from the repository.'
+keywords: run, backup, free, command, snapshot, copies, metadata, smo
+summary: You can run the backup free command to free the Snapshot copies of the backups without removing the backup metadata from the repository.
 ---
 = The smo backup free command
 :icons: font
@@ -15,10 +15,10 @@ You can run the backup free command to free the Snapshot copies of the backups w
 
 ----
 
-        smo backup free 
--profile profile_name 
-[-label label \[-data \| -archivelogs\] \| \[-id guid \| -all\] 
--force 
+        smo backup free
+-profile profile_name
+[-label label \[-data \| -archivelogs\] \| \[-id guid \| -all\]
+-force
 \[-dump\]
 \[-quiet \| -verbose\]
 ----

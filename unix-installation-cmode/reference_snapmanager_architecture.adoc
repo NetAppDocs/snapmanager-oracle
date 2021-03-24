@@ -1,7 +1,7 @@
 ---
 permalink: unix-installation-cmode/reference_snapmanager_architecture.html
 sidebar: sidebar
-keywords: 
+keywords: snapmanager, oracle, component, work, together, provide, comprehensive, powerful, backup, restore, recovery, cloning, database
 summary: 'SnapManager for Oracle includes components that work together to provide a comprehensive and powerful backup, restore, recovery, and cloning solution for Oracle databases.'
 ---
 = SnapManager architecture

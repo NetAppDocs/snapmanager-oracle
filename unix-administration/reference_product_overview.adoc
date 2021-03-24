@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_product_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'SnapManager for Oracle automates and simplifies the complex, manual, and time-consuming processes associated with the backup, recovery, and cloning of Oracle databases. You can use SnapManager with ONTAP SnapMirror technology to create copies of backups on another volume and with ONTAP SnapVault technology to archive backups efficiently to disk.'
+keywords: snapmirror, oracle, automate, simplifies, complex, manual, time-consuming, process, backup, recover, clone, technologies, aoracle, real, application, clusters, rac
+summary: SnapManager for Oracle automates and simplifies the complex, manual, and time-consuming processes associated with the backup, recovery, and cloning of Oracle databases. You can use SnapManager with ONTAP SnapMirror technology to create copies of backups on another volume and with ONTAP SnapVault technology to archive backups efficiently to disk.
 ---
 = Product overview
 :icons: font

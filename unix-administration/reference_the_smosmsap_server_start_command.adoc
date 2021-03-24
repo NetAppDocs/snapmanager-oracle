@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_server_start_command.html
 sidebar: sidebar
-keywords: 
-summary: 'This command starts the host server running the SnapManager for Oracle software.'
+keywords: command, start, host, server, run, snapmanager, oracle, software, smo
+summary: This command starts the host server running the SnapManager for Oracle software.
 ---
 = The smo_server start command
 :icons: font
@@ -15,7 +15,7 @@ This command starts the host server running the SnapManager for Oracle software.
 
 ----
 
-        smo_server start 
+        smo_server start
 \[-quiet \| -verbose\]
 ----
 

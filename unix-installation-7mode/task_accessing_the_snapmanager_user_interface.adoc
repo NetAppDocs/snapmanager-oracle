@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-7mode/task_accessing_the_snapmanager_user_interface.html
 sidebar: sidebar
-keywords: 
-summary: 'You can access the SnapManager user interface \(UI\) remotely by using a web browser from any system running on an operating system supported by SnapManager. You can also access the SnapManager UI from the target database host by running the smogui command.'
+keywords: access, snapmanager, user, interface, ui, remote, web, browser, system, database, smogui
+summary: You can access the SnapManager user interface \(UI\) remotely by using a web browser from any system running on an operating system supported by SnapManager. You can also access the SnapManager UI from the target database host by running the smogui command.
 ---
 = Accessing the SnapManager user interface
 :icons: font
@@ -16,7 +16,8 @@ You can access the SnapManager user interface (UI) remotely by using a web brows
 +
 For information about the supported operating system and Java, see the Interoperability Matrix tool.
 
-. In the web browser window, enter the following:https://server_name.domain.com:port_number
+. In the web browser window, enter the following:
+  https://server_name.domain.com:port_number
  ** server_name is the name of the target database host where SnapManager is installed.
 +
 You can also enter the IP address of the target database host.

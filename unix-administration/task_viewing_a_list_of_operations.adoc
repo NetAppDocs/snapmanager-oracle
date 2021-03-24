@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_viewing_a_list_of_operations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view a summary listing of all the operations performed against a profile.'
+keywords: view, summary, list, operation, perform, profile, smo
+summary: You can view a summary listing of all the operations performed against a profile.
 ---
 = Viewing a list of operations
 :icons: font
@@ -19,7 +19,8 @@ You can view the following information when you list operations associated with 
 * Type of operation
 * Host that it ran upon
 
-. To list the summary information of all the operations, use the following command: smo operation list profile -profile profile_name-delimiter character [-quiet | -verbose]
+. To list the summary information of all the operations, use the following command:
+  `smo operation list profile -profile profile_name-delimiter character [-quiet | -verbose]`
 +
 When the -delimiter option is specified, the command lists each row on a separate line and the attributes in that row are separated by the character specified.
 

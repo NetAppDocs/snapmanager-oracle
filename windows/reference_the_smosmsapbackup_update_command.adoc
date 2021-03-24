@@ -1,8 +1,8 @@
 ---
 permalink: windows/reference_the_smosmsapbackup_update_command.html
 sidebar: sidebar
-keywords: 
-summary: 'You can run the backup update command to update the backup retention policy.'
+keywords: run, backup, update, command, retention, policy, smo
+summary: You can run the backup update command to update the backup retention policy.
 ---
 = The smo backup update command
 :icons: font
@@ -15,12 +15,12 @@ You can run the backup update command to update the backup retention policy.
 
 ----
 
-        smo backup update 
--profile profile_name 
-[-label label \[-data \| -archivelogs\] \| \[-id guid\] 
+        smo backup update
+-profile profile_name
+[-label label \[-data \| -archivelogs\] \| \[-id guid\]
 \[-retain \{-hourly \| -daily \| -weekly \| -monthly \| -unlimited\}\]
-\[-comment comment_text\] 
-[-quiet | -verbose] 
+\[-comment comment_text\]
+[-quiet | -verbose]
 ----
 
 == Parameters

@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/task_viewing_operation_details.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view detailed information about a particular profile to verify the success or failure of an operation. It can also help you determine the storage resources in use for a particular operation.'
+keywords: view, detail, information, particular, profile, verify, success, failure, operation, storage, resource, smo
+summary: You can view detailed information about a particular profile to verify the success or failure of an operation. It can also help you determine the storage resources in use for a particular operation.
 ---
 = Viewing operation details
 :icons: font
@@ -21,7 +21,8 @@ You can view the following details about a particular operation:
 * Repository information
 * Storage resources in use
 
-. To view the detailed information for a specific operation ID, enter the following command: smo operation show -profile profile_name [-label label | -id id] [-quiet | -verbose]
+. To view the detailed information for a specific operation ID, enter the following command:
+  `smo operation show -profile profile_name [-label label | -id id] [-quiet | -verbose]`
 
 *Related information*
 

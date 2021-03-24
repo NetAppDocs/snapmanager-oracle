@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_the_smosmsap_server_status_command.html
 sidebar: sidebar
-keywords: 
-summary: 'You can run the smo_server status command to view the status of the SnapManager host server.'
+keywords: run, smo_server, status, command, view, snapmanager, host, server
+summary: You can run the smo_server status command to view the status of the SnapManager host server.
 ---
 = The smo_server status command
 :icons: font
@@ -15,7 +15,7 @@ You can run the smo_server status command to view the status of the SnapManager 
 
 ----
 
-        smo_server status 
+        smo_server status
 \[-quiet \| -verbose\]
 ----
 

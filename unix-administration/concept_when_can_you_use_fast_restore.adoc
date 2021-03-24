@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_when_can_you_use_fast_restore.html
 sidebar: sidebar
-keywords: 
-summary: 'Specific rules apply for using fast restore to achieve optimal restore performance. In some cases, you cannot use fast restore.'
+keywords: specific, rule, fast, restore, optimal, restore, performance, fast, restore, guideline, eligible, database
+summary: Specific rules apply for using fast restore to achieve optimal restore performance. In some cases, you cannot use fast restore.
 ---
 = Guidelines for when you can use fast restore
 :icons: font

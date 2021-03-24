@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_details_of_the_target_database.html
 sidebar: sidebar
-keywords: 
-summary: 'This example of integrated database protection describes the protection of a payroll database. The following data is used in the example.'
+keywords: integrated, database, protection, payroll, techco, dba, 3000-person, atlanta
+summary: This example of integrated database protection describes the protection of a payroll database. The following data is used in the example.
 ---
 = Details of the target database
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/reference_sample_database_volume_layouts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can refer to sample database volume layouts for help in configuring your database.'
+keywords: refer, sample, database, volume, layout, configuring, database
+summary: You can refer to sample database volume layouts for help in configuring your database.
 ---
 = Sample database volume layouts
 :icons: font
@@ -13,6 +13,7 @@ You can refer to sample database volume layouts for help in configuring your dat
 
 == Single-instance databases
 
+[options="header"]
 |===
 | File types| Volume names| Dedicated volume for file types| Automatic Snapshot copies
 a|
@@ -73,6 +74,7 @@ Off
 
 == Real Application Clusters (RAC) databases
 
+[options="header"]
 |===
 | File types| Volume names| Dedicated volume for file types| Automatic Snapshot copies
 a|
@@ -141,6 +143,7 @@ On
 
 == Single instance of an Automatic Storage Management (ASM) database
 
+[options="header"]
 |===
 | File types| Volume names| LUN names| Dedicated volume for file types| Automatic Snapshot copies
 a|
@@ -219,6 +222,7 @@ Off
 
 == ASM RAC databases
 
+[options="header"]
 |===
 | File types| Volume names| LUN names| Dedicated volume for file types| Automatic Snapshot copies
 a|

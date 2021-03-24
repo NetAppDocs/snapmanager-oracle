@@ -1,8 +1,8 @@
 ---
 permalink: unix-installation-7mode/reference_product_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'automates and simplifies the complex, manual, and time-consuming processes associated with the backup, recovery, and cloning of Oracle databases. You can use SnapManager with Data ONTAP SnapMirror technology to create copies of backups on another volume and with Data ONTAP SnapVault technology to archive backups efficiently to disk.'
+keywords: automate, simplifies, complex, manual, time-consuming, process, associate, backup, recover, cloning, oracle, database, snapvault, data, ontap, technology
+summary: automates and simplifies the complex, manual, and time-consuming processes associated with the backup, recovery, and cloning of Oracle databases. You can use SnapManager with Data ONTAP SnapMirror technology to create copies of backups on another volume and with Data ONTAP SnapVault technology to archive backups efficiently to disk.
 ---
 = Product overview
 :icons: font

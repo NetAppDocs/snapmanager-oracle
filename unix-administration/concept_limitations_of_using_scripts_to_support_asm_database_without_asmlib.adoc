@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_limitations_of_using_scripts_to_support_asm_database_without_asmlib.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of certain limitations to using scripts to support an ASM database without ASMLib.'
+keywords: certain, limitation, script, asm, database, asmlib, root, grid, oracle
+summary: You must be aware of certain limitations to using scripts to support an ASM database without ASMLib.
 ---
 = Limitations of using scripts to support an ASM database without ASMLib
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_support_for_oracle_10g_asm_databases.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are using Oracle 10g, the asmcmd command is not available for listing disks. You can use the sql query to obtain the disks list.'
+keywords: oracle, 10g, asmcmd, sql, query, disk, list, support
+summary: If you are using Oracle 10g, the asmcmd command is not available for listing disks. You can use the sql query to obtain the disks list.
 ---
 = Support for Oracle 10g ASM databases without ASMLib
 :icons: font

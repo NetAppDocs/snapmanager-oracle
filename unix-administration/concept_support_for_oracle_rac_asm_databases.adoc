@@ -1,8 +1,8 @@
 ---
 permalink: unix-administration/concept_support_for_oracle_rac_asm_databases.html
 sidebar: sidebar
-keywords: 
-summary: 'If you are using Oracle RAC databases, the RAC nodes must be updated with the initasmdisks file whenever an operation is performed in the master RAC node.'
+keywords: oracle, rac, database, node, initasmdisk, file
+summary: If you are using Oracle RAC databases, the RAC nodes must be updated with the initasmdisks file whenever an operation is performed in the master RAC node.
 ---
 = Support for Oracle RAC ASM databases without ASMLib
 :icons: font
