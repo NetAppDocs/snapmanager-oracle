@@ -2,7 +2,7 @@
 permalink: unix-installation-cmode/task_configuring_databases.html
 sidebar: sidebar
 keywords: configure, oracle, database, target, snapmanager, repository
-summary: You must configure at least two Oracle databases: a target database that you want to back up using SnapManager; and a repository database to store the target database metadata. The target database and the SnapManager repository database must be configured and online before performing SnapManager operations.
+summary: 'You must configure at least two Oracle databases: a target database that you want to back up using SnapManager; and a repository database to store the target database metadata. The target database and the SnapManager repository database must be configured and online before performing SnapManager operations.'
 ---
 = Configuring databases
 :icons: font
