@@ -2,7 +2,7 @@
 permalink: unix-administration/concept_full_online_backups.html
 sidebar: sidebar
 keywords: full, online, backup, snapmanager, entire, database, snapshot, volume, copy
-summary: During a full online backup, SnapManager backs up the entire database and creates Snapshot copies at the volume level \(not at the tablespace level\).
+summary: 'During a full online backup, SnapManager backs up the entire database and creates Snapshot copies at the volume level (not at the tablespace level).'
 ---
 = Full online backups
 :icons: font

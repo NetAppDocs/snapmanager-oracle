@@ -2,7 +2,7 @@
 permalink: unix-administration/concept_what_user_authentication_is.html
 sidebar: sidebar
 keywords: addition, role-based, access, control, rbac, snapmanager, authenticate, operating, system, os
-summary: In addition to using role-based access control \(RBAC\), SnapManager authenticates the user by using an operating system \(OS\) login on the host where the SnapManager server is running. You can enable user authentication either through password prompts on operations or by using the smo credential set command.
+summary: 'In addition to using role-based access control (RBAC), SnapManager authenticates the user by using an operating system (OS) login on the host where the SnapManager server is running. You can enable user authentication either through password prompts on operations or by using the smo credential set command.'
 ---
 = What user authentication is
 :icons: font
