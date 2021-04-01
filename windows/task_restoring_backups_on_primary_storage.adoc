@@ -17,6 +17,7 @@ You can select one of the following options to restore the backup:
 
 |===
 | If you want to restore...| Use...
+
 a|
 The entire backup with all tablespaces and data files
 a|
@@ -38,6 +39,7 @@ Tablespaces, data files, and control files
 a|
 -complete -controlfiles
 |===
+
 You can also restore the backup from an alternate location by specifying -restorespec.
 
 If you include -recover, you can recover the database to:
@@ -78,6 +80,7 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 - comp
 +
 |===
 | If you want to restore...| Command Example
+
 a|
 *Complete database without control files and recover to a particular SCN number (3794392). In this case, the current control files exist, but all the data files are damaged or lost. Restore and recover the database from an existing full online backup to a point immediately before that SCN.*
 a|
@@ -93,7 +96,9 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -compl
 a|
 *Partial database (one or more data files) without control files and recover using all available logs. In this case, the current control files exist, but one or more data files are damaged or lost. Restore those data files and recover the database from an existing full online backup using all available logs.*
 a|
-smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -files E:\disks\s02.dbf E:\disks\sales03.dbf E:\disks\sales04.dbf -recover -alllogs -verbose
+smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -files
+E:\disks\s02.dbf E:\disks\sales03.dbf
+E:\disks\sales04.dbf -recover -alllogs -verbose
 a|
 *Partial database (one or more tablespaces) without control files and recover using all available logs. In this case, the current control files exist, but one or more tablespaces are dropped or one of more data files belonging to the tablespace are damaged or lost. Restore those tablespaces and recover the database from an existing full online backup using all available logs.*
 a|
@@ -110,7 +115,10 @@ a|
 *Recover the restored database using the archive log files from the external archive log location.*
 a|
 
-smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -complete -using-backup-controlfile -recover -alllogs -recover-from-location E:\archive -verbose
+smo backup restore -profile targetdb1_prof1
+-label full_bkup_sales_nov_08
+-complete -using-backup-controlfile -recover
+-alllogs -recover-from-location E:\archive -verbose
     |===
 
 . Specify external archive log locations by using the -recover-from-location option.
