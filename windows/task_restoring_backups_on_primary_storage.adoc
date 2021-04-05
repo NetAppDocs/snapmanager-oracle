@@ -2,7 +2,7 @@
 permalink: windows/task_restoring_backups_on_primary_storage.html
 sidebar: sidebar
 keywords: backup, restore, command, database, backup, primary, storage, restoring
-summary: You can use the backup restore command to restore a database backup on primary storage.
+summary: 'You can use the backup restore command to restore a database backup on primary storage.'
 ---
 = Restoring backups on primary storage
 :icons: font
@@ -96,9 +96,14 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -compl
 a|
 *Partial database (one or more data files) without control files and recover using all available logs. In this case, the current control files exist, but one or more data files are damaged or lost. Restore those data files and recover the database from an existing full online backup using all available logs.*
 a|
-smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -files
-E:\disks\s02.dbf E:\disks\sales03.dbf
-E:\disks\sales04.dbf -recover -alllogs -verbose
+smo backup restore
+-profile targetdb1_prof1
+-label full_bkup_sales_nov_08
+-files E:\disks\s02.dbf
+E:\disks\sales03.dbf
+E:\disks\sales04.dbf
+-recover -alllogs
+-verbose
 a|
 *Partial database (one or more tablespaces) without control files and recover using all available logs. In this case, the current control files exist, but one or more tablespaces are dropped or one of more data files belonging to the tablespace are damaged or lost. Restore those tablespaces and recover the database from an existing full online backup using all available logs.*
 a|
@@ -114,12 +119,11 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -compl
 a|
 *Recover the restored database using the archive log files from the external archive log location.*
 a|
-
 smo backup restore -profile targetdb1_prof1
 -label full_bkup_sales_nov_08
 -complete -using-backup-controlfile -recover
 -alllogs -recover-from-location E:\archive -verbose
-    |===
+|===
 
 . Specify external archive log locations by using the -recover-from-location option.
 
