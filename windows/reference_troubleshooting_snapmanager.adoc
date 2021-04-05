@@ -76,34 +76,26 @@ You can also exclude the archive log destinations while creating a backup from t
 a|
 Do you have an MS-DOS window open in the directory in which you are attempting to install or upgrade SnapManager on Windows?
 a|
-You will see an error message similar to the following: ```
-Directory
-C:\Program Files\NetApp\SnapManager for Oracle\bin is currently
-in use by another program. Any window, opened by you
+You will see an error message similar to the following:
+`Directory C:\Program Files\NetApp\SnapManager
+for Oracle\bin is currently in use by another program`. Any window, opened by you
 or another user, that is currently referencing
 this directory must be closed before installation can proceed.
-
-```
-
 Close the window and attempt the installation or upgrade again.
-
 a|
 Were you unable to connect to the repository?
 a|
 If connecting to a repository fails, run the lsnrctl status command on the repository database and check the active service names. When SnapManager connects to the repository database, it uses the service name of the database. Depending on how the listener is setup, this might be the short service name or the fully qualified service name. When SnapManager connects to a database for a backup, restore, or other operation, it uses the host name and the SID. If the repository does not initialize correctly because it is currently unreachable, you receive an error message asking whether you want to remove the repository. You can remove the repository from your current view so that you can perform operations on other repositories.
-
 Also, check whether the corresponding service is running.
-
 a|
 Can system resolve the host name?
 a|
-Check whether the specified host name is on a different subnet. If you receive an error message that SnapManager cannot resolve the host name, then add the host name in the host file.Add the host name to the file located at C:\WINDOWS\system32\drivers\etc\hosts: xxx.xxx.xxx.xxx hostname IP address
-
+Check whether the specified host name is on a different subnet. If you receive an error message that SnapManager cannot resolve the host name, then add the host name in the host file. Add the host name to the file located at C:\WINDOWS\system32\drivers\etc\hosts:
+xxx.xxx.xxx.xxx hostname IP address
 a|
 Is SnapDrive running?
 a|
 To view the status of SnapDrive, go to Services, and then select the SnapDrive service.
-
 a|
 Which storage systems are configured to be accessed with SnapDrive?
 a|
@@ -112,12 +104,9 @@ To find the storage systems configured for SnapDrive, perform the following step
 . Right-click *My Computer*, and then select *Manage*.
 . Click *Storage* > *SnapDrive*.
 . Right-click the host name, and then select *transport protocol settings*.
-
 a|
 How can SnapManager GUI performance be improved?
-
 a|
-
 * Ensure that you have valid user credentials for the repository, profile host, and profile.
 +
 If your credential is invalid, then clear the user credentials for the repository, profile host, and profile. Reset the same user credentials that you set before for the repository, profile host, and profile. For additional information about setting the user credentials again, see "`Setting credentials after clearing credential cache`".
@@ -137,7 +126,6 @@ You can delete the profile names listed and always keep a minimum number of prof
 * Before installing the new version of SnapManager on the Windows-based environment, delete the SnapManager client-side entries available at the following location:
 +
 C:\Documents and Settings\Administrator\Application Data\NetApp
-
 a|
 SnapManager GUI takes more time to refresh when there are multiple SnapManager operations started and running simultaneously in the background. When you right-click the backup (that is already deleted but still gets displayed in the SnapManager GUI), the backup options for that backup are not enabled in the Backup or Clone window.
 a|
@@ -180,7 +168,6 @@ Configure the following parameters in the smo.config file depending on the frequ
 * fileLock.timeout = 5000 milliseconds
 
 NOTE: The values assigned to the parameters must be in milliseconds.
-
 a|
 What would you do when the backup verify operation's intermediate status shows failed in the Monitor tab even though the backup verify operation is still running?
 a|
@@ -221,5 +208,4 @@ The default value is set to 90 seconds. However, you can change a value greater 
 * The wrapper.ping.timeout parameter defines the maximum permissible time between the wrapper pinging the JVM and the response from the JVM. The default value is set to 90 seconds.
 +
 However, you can change to a value greater than 0. If you specify an invalid value, the default is used instead.
-
 |===
