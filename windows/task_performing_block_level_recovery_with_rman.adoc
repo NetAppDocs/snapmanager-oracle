@@ -2,7 +2,7 @@
 permalink: windows/task_performing_block_level_recovery_with_rman.html
 sidebar: sidebar
 keywords: configure, snapmanager, catalog, backup, recovery, manager, rman, oracle, tool, perform, block-level
-summary: You can configure SnapManager to catalog its backups in Recovery Manager \(RMAN\), an Oracle tool, so that you can perform a block-level recovery using RMAN. RMAN can use either the database’s control files or a separate recovery catalog database as its repository.
+summary: 'You can configure SnapManager to catalog its backups in Recovery Manager (RMAN), an Oracle tool, so that you can perform a block-level recovery using RMAN. RMAN can use either the database’s control files or a separate recovery catalog database as its repository.'
 ---
 = Performing block-level recovery with Oracle Recovery Manager (RMAN)
 :icons: font

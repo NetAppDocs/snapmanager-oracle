@@ -2,7 +2,7 @@
 permalink: windows/reference_the_smosmsapprofile_sync_command.html
 sidebar: sidebar
 keywords: command, load, profile-to-repository, mapping, repository, file, directory, smo
-summary: This command loads the profile-to-repository mappings for that repository to a file in your home directory on the local host.
+summary: 'This command loads the profile-to-repository mappings for that repository to a file in your home directory on the local host.'
 ---
 = The smo profile sync command
 :icons: font
