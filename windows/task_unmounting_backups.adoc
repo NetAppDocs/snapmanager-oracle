@@ -2,7 +2,7 @@
 permalink: windows/task_unmounting_backups.html
 sidebar: sidebar
 keywords: snapmanager, automatic, unmount, backup, unavailable, host, server, remove, access
-summary: SnapManager automatically unmounts the backup to make it unavailable to the host server. SnapManager also allows you to unmount if you are using an external tool, such as Oracle Recovery Manager \(RMAN\), to access the files in the backup, and to change the state of the backup to remove access.
+summary: 'SnapManager automatically unmounts the backup to make it unavailable to the host server. SnapManager also allows you to unmount if you are using an external tool, such as Oracle Recovery Manager (RMAN), to access the files in the backup, and to change the state of the backup to remove access.'
 ---
 = Unmounting backups
 :icons: font

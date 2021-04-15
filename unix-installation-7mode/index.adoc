@@ -2,7 +2,7 @@
 permalink: unix-installation-7mode/index.html
 sidebar: sidebar
 keywords: installation, setup, guide, unix
-summary: "SnapManager for Oracle 3.4.2 nstallation and Setup Guide for UNIX®"
+summary: 'SnapManager for Oracle 3.4.2 nstallation and Setup Guide for UNIX®'
 ---
 = Installation and Setup Guide for UNIX®
 :icons: font

@@ -2,7 +2,7 @@
 permalink: windows/task_creating_or_updating_post_scripts.html
 sidebar: sidebar
 keywords: create, new, post, script, default, install, directory, plugin, backup, create, creating, updating
-summary: You can either create new post scripts or use the scripts available at default_install_directory\\plugins\\backup\\create\\post.
+summary: 'You can either create new post scripts or use the scripts available at default_install_directory\plugins\backup\create\post.'
 ---
 = Creating or updating the post scripts
 :icons: font

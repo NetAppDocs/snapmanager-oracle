@@ -2,7 +2,7 @@
 permalink: windows/task_deleting_clones.html
 sidebar: sidebar
 keywords: delete, clone, snapshot, copy, backup, guarantee, current, data, deleting
-summary: You can delete the clones when the size of the Snapshot copy reaches between 10% and 20% of the backup. This also guarantees that the clone has the most current data.
+summary: 'You can delete the clones when the size of the Snapshot copy reaches between 10% and 20% of the backup. This also guarantees that the clone has the most current data.'
 ---
 = Deleting clones
 :icons: font

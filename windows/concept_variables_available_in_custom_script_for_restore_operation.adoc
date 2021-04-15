@@ -2,8 +2,9 @@
 permalink: windows/concept_variables_available_in_custom_script_for_restore_operation.html
 sidebar: sidebar
 keywords: provide, context, information, form, environment, variable, restore, operation, perform, backup
-summary: 'SnapManager provides context information in the form of environment variables related to the restore operation that is being performed. For example, your script can retrieve the name of the original host and the label of the backup that is restored.
+summary: 'SnapManager provides context information in the form of environment variables related to the restore operation that is being performed. For example, your script can retrieve the name of the original host and the label of the backup that is restored.'
 ---
+
 = Variables available in the task scripts for the restore operation
 :icons: font
 :imagesdir: ../media/
@@ -15,6 +16,7 @@ The following table lists the environment variables that you can use in your scr
 
 |===
 | Variables| Description| Format
+
 a|
 SM_OPERATION_ID
 a|
@@ -84,14 +86,16 @@ string
 a|
 SM_TARGET_FILER_NAME
 a|
-Specifies the target storage system name *Note:* If more than one storage system is used, then the storage system names must be separated by commas.
+Specifies the target storage system name
+*Note:* If more than one storage system is used, then the storage system names must be separated by commas.
 
 a|
 string
 a|
 SM_TARGET_VOLUME_NAME
 a|
-Specifies the target volume name *Note:* The target volume name must be prefixed with storage device name, for example, SM_TARGET_FILER_NAME/SM_TARGET_VOLUME_NAME.
+Specifies the target volume name
+*Note:* The target volume name must be prefixed with storage device name, for example, SM_TARGET_FILER_NAME/SM_TARGET_VOLUME_NAME.
 
 a|
 string
@@ -104,35 +108,40 @@ string
 a|
 SM_SNAPSHOT_NAMES
 a|
-Specifies the Snapshot list *Note:* Name of the Snapshot copies must be prefixed with the storage system name and volume name. Names of the Snapshot copies are separated by commas.
+Specifies the Snapshot list
+*Note:* Name of the Snapshot copies must be prefixed with the storage system name and volume name. Names of the Snapshot copies are separated by commas.
 
 a|
 string array
 a|
 SM_ARCHIVE_LOGS_DIRECTORY
 a|
-Specifies the archive logs directory *Note:* If the archive logs are located in more than one directory, then the names of those directories are separated by commas.
+Specifies the archive logs directory
+*Note:* If the archive logs are located in more than one directory, then the names of those directories are separated by commas.
 
 a|
 string array
 a|
 SM_REDO_LOGS_DIRECTORY
 a|
-Specifies the redo logs directory *Note:* If the redo logs are located in more than one directory, then the names of those directories are separated by commas.
+Specifies the redo logs directory
+*Note:* If the redo logs are located in more than one directory, then the names of those directories are separated by commas.
 
 a|
 string array
 a|
 SM_CONTROL_FILES_DIRECTORY
 a|
-Specifies the control files directory *Note:* If the control files are located in more than one directory, then the names of those directories are separated by commas.
+Specifies the control files directory
+*Note:* If the control files are located in more than one directory, then the names of those directories are separated by commas.
 
 a|
 string array
 a|
 SM_DATA_FILES_DIRECTORY
 a|
-Specifies the data files directory *Note:* If the data files are located in more than one directory, then the names of those directories are separated by commas.
+Specifies the data files directory
+*Note:* If the data files are located in more than one directory, then the names of those directories are separated by commas.
 
 a|
 string array

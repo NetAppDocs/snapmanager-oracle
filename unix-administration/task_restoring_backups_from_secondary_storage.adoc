@@ -37,11 +37,16 @@ This policy should be used only if the host does not have direct access to the s
 a|
 Restore a complete database if the selected backup exists on primary storage
 a|
-Enter the following command: smo backup restore -profileprofile_name-labellabel-complete-recover -alllogs[-copy-idid]
+Enter the following command: smo backup restore
+-profileprofile_name-labellabel-complete-recover
+-alllogs[-copy-idid]
 a|
 Restore a complete database if the selected backup does not exist on primary storage
 a|
-Enter the following command: smo backup restore -profileprofile_name-labellabel-complete-recover -alllogs-from-secondary [-temp-volume <temp_volume>] [-copy-idid]
+Enter the following command: smo backup restore
+-profileprofile_name-labellabel-complete-recover
+-alllogs-from-secondary [-temp-volume <temp_volume>]
+[-copy-idid]
 |===
 
 == Example

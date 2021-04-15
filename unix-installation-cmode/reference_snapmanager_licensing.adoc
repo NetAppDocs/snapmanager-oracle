@@ -2,7 +2,7 @@
 permalink: unix-installation-cmode/reference_snapmanager_licensing.html
 sidebar: sidebar
 keywords: snapmanager, license, storage, system, license, require, operation, database, per-storage
-summary: A SnapManager license and several storage system licenses are required to enable SnapManager operations. The SnapManager license is available in two licensing models: per-server licensing, in which the SnapManager license resides on each database host; and per-storage system licensing, in which the SnapManager license resides on the storage system.
+summary: 'A SnapManager license and several storage system licenses are required to enable SnapManager operations. The SnapManager license is available in two licensing models, per-server licensing, in which the SnapManager license resides on each database host and per-storage system licensing, in which the SnapManager license resides on the storage system.'
 ---
 = SnapManager licensing
 :icons: font
@@ -19,7 +19,7 @@ The SnapManager license requirements are as follows:
 a|
 SnapManager per-server
 a|
-A host-side license for a specific database host.Licenses are required only for database hosts on which SnapManager is installed. No SnapManager license is required for the storage system.
+A host-side license for a specific database host. Licenses are required only for database hosts on which SnapManager is installed. No SnapManager license is required for the storage system.
 
 a|
 On the SnapManager host. A SnapManager license is not required on primary and secondary storage systems when using per-server licensing.
@@ -64,5 +64,4 @@ a|
 NFS, iSCSI, or FC license is required depending on the protocol used.
 a|
 On primary and secondary storage systems. Required on SnapMirror destination systems to serve data if a source volume is unavailable.
-
 |===

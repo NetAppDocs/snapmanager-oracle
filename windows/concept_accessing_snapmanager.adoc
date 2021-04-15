@@ -2,7 +2,7 @@
 permalink: windows/concept_accessing_snapmanager.html
 sidebar: sidebar
 keywords: command-line, interface, cli, graphical, user, gui, accessing
-summary: You can access SnapManager by using either the command-line interface \(CLI\) or graphical user interface \(GUI\).
+summary: 'You can access SnapManager by using either the command-line interface (CLI) or graphical user interface (GUI).'
 ---
 = Accessing SnapManager
 :icons: font

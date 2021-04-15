@@ -2,7 +2,7 @@
 permalink: unix-administration/task_restoring_backups_on_primary_storage.html
 sidebar: sidebar
 keywords: backup, restore, command, database, primary
-summary: You can use the backup restore command to restore a database backup on primary storage.
+summary: 'You can use the backup restore command to restore a database backup on primary storage.'
 ---
 = Restoring backups on primary storage
 :icons: font
@@ -126,9 +126,8 @@ smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -compl
 a|
 *Recover the restored database using the archive log files from the external archive log location.*
 a|
-
 smo backup restore -profile targetdb1_prof1 -label full_bkup_sales_nov_08 -complete -using-backup-controlfile -recover -alllogs -recover-from-location /user1/archive -verbose
-    |===
+|===
 
 . Review the fast restore eligibility checks.
 +
