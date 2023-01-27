@@ -23,7 +23,7 @@ You must install SnapManager for Oracle on every target database host.
 
 You can either use the command-line interface (CLI) or UI from the database host where SnapManager for Oracle is installed. You can also use the SnapManager UI remotely by using a web browser from any system running on an operating system supported by SnapManager.
 
-NOTE: The supported JRE versions are 1.5, 1.6, and 1.7.
+NOTE: The supported JRE versions are 1.5, 1.6, 1.7, and 1.8.
 
 == Target database
 
